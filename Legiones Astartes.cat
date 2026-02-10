@@ -211,7 +211,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="1) Weapon Option 1" id="9a4c-8754-0b8d-1d19" hidden="false" defaultSelectionEntryId="bca2-c08b-442a-6959">
+        <selectionEntryGroup name="1) Weapon Option 1" id="9a4c-8754-0b8d-1d19" hidden="false" defaultSelectionEntryId="91c5-6102-af0d-6763">
           <entryLinks>
             <entryLink import="true" name="Gravis bolt cannon" hidden="false" id="91c5-6102-af0d-6763" type="selectionEntry" targetId="99aa-9f38-71c9-15dc"/>
             <entryLink import="true" name="Kheres assault cannon" hidden="false" id="480e-83d3-7fed-5e41" type="selectionEntry" targetId="50e7-042a-f89c-b6e7"/>
@@ -253,7 +253,7 @@
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="2) Weapon Option 2" id="e814-383b-d15d-28ac" hidden="false">
+        <selectionEntryGroup name="2) Weapon Option 2" id="e814-383b-d15d-28ac" hidden="false" defaultSelectionEntryId="0528-44e5-9f02-5abe">
           <entryLinks>
             <entryLink import="true" name="Twin lascannon" hidden="false" id="8ab2-8f2a-a8f7-bd82" type="selectionEntry" targetId="d487-d226-e2a6-f1e1">
               <costs>
@@ -311,6 +311,64 @@
               </repeats>
             </modifier>
           </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="3) May replace an in-built combi-bolter with one of the following:" id="f473-9e74-66d9-af47" hidden="false" defaultSelectionEntryId="685e-f590-b90d-bb78" collapsible="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="dfbc-e43b-eaed-c60f" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="efbd-6ba1-57ba-2dd3" percentValue="false" includeChildSelections="false" includeChildForces="false" automatic="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="efbd-6ba1-57ba-2dd3">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="9525-7b99-bb6a-e83e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="8bf7-8d91-b0ca-56fc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="2" field="selections" scope="parent" childId="7260-bdda-463a-f4dc" shared="true" roundUp="false" includeChildSelections="true"/>
+                <repeat value="1" repeats="2" field="selections" scope="parent" childId="f03d-7763-618d-13cd" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="dfbc-e43b-eaed-c60f">
+              <repeats>
+                <repeat value="1" repeats="2" field="selections" scope="parent" childId="f03d-7763-618d-13cd" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="9525-7b99-bb6a-e83e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="8bf7-8d91-b0ca-56fc" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                <repeat value="1" repeats="2" field="selections" scope="parent" childId="7260-bdda-463a-f4dc" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="9525-7b99-bb6a-e83e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="8bf7-8d91-b0ca-56fc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="7260-bdda-463a-f4dc" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="equalTo" value="0" field="selections" scope="parent" childId="f03d-7763-618d-13cd" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Plasma blaster" hidden="false" id="3e5b-e29d-82e9-ee79" type="selectionEntry" targetId="4214-82cd-db0d-fa45">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Combi-bolter" hidden="false" id="685e-f590-b90d-bb78" type="selectionEntry" targetId="443d-e528-f389-d936">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy flamer" hidden="false" id="f640-17ed-409c-acb4" type="selectionEntry" targetId="6512-ec3f-2d7e-916c">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Meltagun" hidden="false" id="0d94-a278-e1e0-6cd8" type="selectionEntry" targetId="c082-8d8d-986d-f230">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -438,6 +496,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="20"/>
+          </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Venerable Upgrade" hidden="false" id="9b7f-b64b-302b-ce16">
           <rules>
@@ -841,6 +902,9 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ee3-bf8a-725f-2a5c" includeChildSelections="false" automatic="true"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a46-4b44-1357-1d66" negative="false" automatic="true"/>
                   </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="9a0d-e7f6-7bfb-b7c0" type="selectionEntryGroup" targetId="cdea-8bd4-8678-fcb1"/>
+                  </entryLinks>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1043,7 +1107,11 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a7e-99d0-98cb-060c" automatic="true"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="c965-6083-523d-a459" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808"/>
+                    <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="c965-6083-523d-a459" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808">
+                      <entryLinks>
+                        <entryLink import="true" name="Power Weapon" hidden="false" id="ab6c-14a5-9b1a-1550" type="selectionEntryGroup" targetId="cdea-8bd4-8678-fcb1"/>
+                      </entryLinks>
+                    </entryLink>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cae3-587f-14e4-f628" includeChildSelections="true"/>
@@ -1330,7 +1398,11 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
                         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8ea8-5627-fab7-1585" includeChildSelections="true" automatic="true"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="aea7-c488-74f0-205f" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808"/>
+                        <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="aea7-c488-74f0-205f" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808">
+                          <entryLinks>
+                            <entryLink import="true" name="Power Weapon" hidden="false" id="a47d-11b5-47ed-2af9" type="selectionEntryGroup" targetId="cdea-8bd4-8678-fcb1"/>
+                          </entryLinks>
+                        </entryLink>
                       </entryLinks>
                       <modifiers>
                         <modifier type="set" value="0" field="5e22-4f56-208e-2d61">
@@ -3654,16 +3726,119 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
             <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
           </costs>
         </entryLink>
+        <entryLink import="true" name="Axe of Perdition" hidden="true" id="b6d5-8413-9a72-8ec2" type="selectionEntry" targetId="a9de-8103-16b3-5fd8">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Blade of Perdition" hidden="true" id="bbd2-1e77-1ff5-476b" type="selectionEntry" targetId="f1f3-d86c-06ec-bb89">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Maul of Perdition" hidden="true" id="2fb9-71f5-a03d-d5c2" type="selectionEntry" targetId="2cac-f44f-9b25-78b4">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Spear of Perdition" hidden="true" id="5e0e-58de-0f63-fed0" type="selectionEntry" targetId="26e5-5e2c-46eb-0399">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Sergeant Melee Weapons" id="afae-fd6c-921a-6808" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Chainaxe" hidden="false" id="1f36-c2f6-be9c-3220" type="selectionEntry" targetId="63e8-9b5a-a579-872b"/>
-        <entryLink import="true" name="Power fist" hidden="false" id="2695-198b-fdce-28d4" type="selectionEntry" targetId="d0da-7b41-cd84-89f2"/>
         <entryLink import="true" name="Thunder hammer" hidden="false" id="2ed8-53b4-e5c2-b716" type="selectionEntry" targetId="5d90-0beb-144a-477f"/>
-        <entryLink import="true" name="Power sword" hidden="false" id="83bb-f2d3-d31f-be31" type="selectionEntry" targetId="43bf-840b-fe42-d2b9"/>
         <entryLink import="true" name="Chainsword" hidden="false" id="b167-ee7b-5794-869e" type="selectionEntry" targetId="67d6-6fcb-dea3-6851"/>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="80de-a2b4-c4a3-c7f2" type="selectionEntry" targetId="7b9c-7b47-4f77-1302"/>
+        <entryLink import="true" name="Power fist" hidden="false" id="2e41-5390-d483-3412" type="selectionEntry" targetId="d0da-7b41-cd84-89f2"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Officer Wargear" id="eb84-9f9d-3c73-f0a1" hidden="false">
@@ -3685,6 +3860,110 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
           <costs>
             <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
           </costs>
+        </entryLink>
+        <entryLink import="true" name="Axe of Perdition" hidden="true" id="e487-d832-f6c7-5989" type="selectionEntry" targetId="a9de-8103-16b3-5fd8">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Blade of Perdition" hidden="true" id="cb14-791b-3203-c4ae" type="selectionEntry" targetId="f1f3-d86c-06ec-bb89">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Maul of Perdition" hidden="true" id="a168-74c6-65c3-6d91" type="selectionEntry" targetId="2cac-f44f-9b25-78b4">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Spear of Perdition" hidden="true" id="858f-e935-22c3-733d" type="selectionEntry" targetId="26e5-5e2c-46eb-0399">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>BA</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="6506-3e22-a625-e340" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>

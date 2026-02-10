@@ -140,6 +140,16 @@
         <categoryLink name="Dedicated Transport" hidden="false" id="f07d-0fa1-cc36-6aa8" targetId="8676-3c26-63d0-821d"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry name="Lord of War" id="d81c-5e75-14d2-44cd" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Lord of War" hidden="false" id="c9a7-c639-2737-fa1e" targetId="f15c-973e-a384-efe8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb31-ea9f-dbf3-1865"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbaa-4110-41a5-b65a"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <profileTypes>
     <profileType name="Unit" id="dbf0-3d90-5e03-9cca" hidden="false">

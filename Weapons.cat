@@ -2851,8 +2851,131 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Axe of Perdition" hidden="false" id="a9de-8103-16b3-5fd8">
+      <profiles>
+        <profile name="Axe of Perdition" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="677f-3961-211d-f3ae">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+1</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Breaching (5+), Aflame (1)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power, Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="c61e-966f-d48f-6192" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Aflame (X)" id="62e9-4b28-1534-d8cb" hidden="false" type="rule" targetId="7f35-c45d-da00-dbac">
+          <modifiers>
+            <modifier type="set" value="Aflame (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blade of Perdition" hidden="false" id="f1f3-d86c-06ec-bb89">
+      <profiles>
+        <profile name="Blade of Perdition" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="a527-3a18-3928-51af">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">User</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Breaching (6+), Aflame (1)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power, Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="f719-f120-04af-a304" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Aflame (X)" id="f177-4c46-d274-8287" hidden="false" type="rule" targetId="7f35-c45d-da00-dbac">
+          <modifiers>
+            <modifier type="set" value="Aflame (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Maul of Perdition" hidden="false" id="2cac-f44f-9b25-78b4">
+      <profiles>
+        <profile name="Maul of Perdition" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="5c48-0e9b-c763-533e">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+2</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Breaching (6+), Aflame (1)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power, Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="df12-9e9d-c0ee-ecf0" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Aflame (X)" id="d387-eac2-a882-dda1" hidden="false" type="rule" targetId="7f35-c45d-da00-dbac">
+          <modifiers>
+            <modifier type="set" value="Aflame (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spear of Perdition" hidden="false" id="26e5-5e2c-46eb-0399">
+      <profiles>
+        <profile name="Spear of Perdition" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="366d-18e2-260f-a9a3">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">+1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">User</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Precision(6+), Aflame (1)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power, Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Aflame (X)" id="86df-b9fc-1baf-ed34" hidden="false" type="rule" targetId="7f35-c45d-da00-dbac">
+          <modifiers>
+            <modifier type="set" value="Aflame (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision (X)" id="2477-8d92-36b6-d57b" hidden="false" type="rule" targetId="61a5-61cc-ed2a-d45b">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Precision (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>
   </catalogueLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Perdition Weapons" id="6a6b-1cda-b6a4-8b3e" hidden="false" defaultSelectionEntryId="none">
+      <entryLinks>
+        <entryLink import="true" name="Blade of Perdition" hidden="false" id="7d13-ed02-8de8-7853" type="selectionEntry" targetId="f1f3-d86c-06ec-bb89" sortIndex="1"/>
+        <entryLink import="true" name="Axe of Perdition" hidden="false" id="3608-c39d-08d1-c393" type="selectionEntry" targetId="a9de-8103-16b3-5fd8" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Maul of Perdition" hidden="false" id="1ccc-b6f7-5cc8-a4af" type="selectionEntry" targetId="2cac-f44f-9b25-78b4" sortIndex="3"/>
+        <entryLink import="true" name="Spear of Perdition" hidden="false" id="b344-91e6-879f-d3a1" type="selectionEntry" targetId="26e5-5e2c-46eb-0399" sortIndex="4"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
