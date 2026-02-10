@@ -715,108 +715,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sanguinary Guard" hidden="false" id="8ff1-fa2c-685a-fcf6" sortIndex="5">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sanguinary Guard" hidden="false" id="7eed-be8c-4d5f-9c7f" page="112" publicationId="5469-14da-d0a1-6092">
-          <profiles>
-            <profile name="Sanguinary Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="a2af-2c82-4629-8677">
-              <characteristics>
-                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Antigrav)</characteristic>
-                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">12</characteristic>
-                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
-                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
-                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
-                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
-                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
-                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
-                <characteristic name="A" typeId="f152-fc99-0cad-3056">3</characteristic>
-                <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
-                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
-                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">7</characteristic>
-                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">7</characteristic>
-                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
-                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="40"/>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="40"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="dce8-4100-42b5-804a"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="c03d-aaf7-4cf6-9880"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Perdition Weapons" hidden="false" id="04f7-ba09-e4e7-78bf" type="selectionEntryGroup" targetId="956d-4866-e1b3-70e7" sortIndex="1">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec21-9a5a-302a-30f2" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="130a-a8bc-5784-6216" automatic="true"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="For every five Models in this Unit, one Model in this Unit may have its perdition weapon exchanged for " id="d02b-3519-3642-bd32" hidden="false">
-                  <entryLinks>
-                    <entryLink import="true" name="Paragon Blade" hidden="false" id="0adc-d9fb-c1c8-05bd" type="selectionEntry" targetId="4a4e-75e7-346c-d358">
-                      <costs>
-                        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
-                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c026-e44c-4a50-947e"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="a195-5ac0-4c43-b922" includeChildSelections="true"/>
-                  </constraints>
-                  <modifiers>
-                    <modifier type="increment" value="1" field="a195-5ac0-4c43-b922">
-                      <repeats>
-                        <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </entryLink>
-          </entryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Any Model in this Unit may have its bolt pistol exchanged for " id="ca54-443d-4784-8ffe" hidden="false" sortIndex="2">
-              <entryLinks>
-                <entryLink import="true" name="Bolt pistol" hidden="false" id="f3e5-7018-2522-ac67" type="selectionEntry" targetId="ea66-764a-ed62-0744">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8def-b875-4181-8dad"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Combat Shield" hidden="false" id="7ed3-2b19-a13f-fe2f" type="selectionEntry" targetId="072d-0125-b360-4c6e">
-                  <costs>
-                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="2"/>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7da9-6a7e-4387-af22"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="Inferno Pistol" hidden="false" id="e063-9b3b-09c7-57af" type="selectionEntry" targetId="52f2-26f2-0b24-6835">
-                  <costs>
-                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a81-beb7-48c2-af60"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d6c1-fee8-409b-ad95" automatic="true"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90cc-87a4-42e7-8c9e" automatic="true"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <categoryLinks>
-            <categoryLink targetId="004b-f7b9-8d86-ecf0" id="308c-4b1c-233a-9b6e" primary="false" name="Infantry Model Type"/>
-            <categoryLink targetId="dc1e-9850-77b6-3671" id="cbf9-d123-2d0a-756a" primary="false" name="Antigrav Model Sub-Type"/>
-          </categoryLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="One Model in this Unit may have its perdition weapon and bolt pistol exchanged for " hidden="false" id="014f-ab57-5250-bc4a">
+        <selectionEntry type="model" import="true" name="One Model in this Unit may have its perdition weapon and bolt pistol exchanged for " hidden="true" id="014f-ab57-5250-bc4a">
           <selectionEntryGroups>
             <selectionEntryGroup name="Legion standard and power weapon" id="c1bc-14c0-f9ce-1749" hidden="false">
               <entryLinks>
@@ -826,7 +725,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9eaf-0a1e-5e30-263c"/>
                   </constraints>
                   <costs>
-                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="5"/>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
                   </costs>
                 </entryLink>
@@ -846,6 +745,9 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="fc0f-7136-4328-a938" includeChildSelections="true"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink targetId="079c-7444-31e3-6a1a" id="bd08-98c7-ec24-d3b9" primary="false" name="Command Model Sub-type"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -882,6 +784,148 @@
         </infoLink>
         <infoLink name="Deep Strike" id="c09b-f700-415b-8d63" hidden="false" type="rule" targetId="8444-d183-3984-f12a"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="27bb-b3f8-a434-91c2" id="4d7b-36a8-e045-77b0" primary="false" name="Free Power Weapon"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Models" id="0b22-a6d5-1bbb-e0d4" hidden="false" defaultSelectionEntryId="7eed-be8c-4d5f-9c7f">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Sanguinary Guard with Legion Standard" hidden="false" id="b46e-1736-5b7f-1027" page="112" publicationId="5469-14da-d0a1-6092">
+              <profiles>
+                <profile name="Sanguinary Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="7834-d310-6157-10fd">
+                  <characteristics>
+                    <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Antigrav)</characteristic>
+                    <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">12</characteristic>
+                    <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                    <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                    <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                    <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                    <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                    <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                    <characteristic name="A" typeId="f152-fc99-0cad-3056">3</characteristic>
+                    <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
+                    <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
+                    <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">7</characteristic>
+                    <characteristic name="IN" typeId="8855-af7b-d9c2-228f">7</characteristic>
+                    <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                    <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="50"/>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d02-3e75-d5a2-288b"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Perdition Weapons" hidden="false" id="3a31-8e0f-c9d2-3ec7" type="selectionEntryGroup" targetId="c4c7-1cce-e642-688e" sortIndex="1">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a75-7ea7-b3be-1be7" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="317b-b47f-5c6b-cfdb" automatic="true"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Legion standard" hidden="false" id="b9d0-294b-0b05-fd6c" type="selectionEntry" targetId="9e35-9a87-0594-b20c" sortIndex="2">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1f8-955e-95c9-51b7"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dce5-18cf-a1eb-e67c"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="0"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Infantry Model Type" hidden="false" id="c932-4a12-01d2-8ad4" targetId="004b-f7b9-8d86-ecf0" primary="false"/>
+                <categoryLink name="Antigrav Model Sub-Type" hidden="false" id="9239-c570-0986-c85f" targetId="dc1e-9850-77b6-3671" primary="false"/>
+                <categoryLink name="Command Model Sub-type" hidden="false" id="47c9-4aed-5ae8-d826" targetId="079c-7444-31e3-6a1a" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sanguinary Guard" hidden="false" id="7eed-be8c-4d5f-9c7f" page="112" publicationId="5469-14da-d0a1-6092">
+              <profiles>
+                <profile name="Sanguinary Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="a2af-2c82-4629-8677">
+                  <characteristics>
+                    <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Antigrav)</characteristic>
+                    <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">12</characteristic>
+                    <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                    <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                    <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                    <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                    <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                    <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                    <characteristic name="A" typeId="f152-fc99-0cad-3056">3</characteristic>
+                    <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
+                    <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
+                    <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">7</characteristic>
+                    <characteristic name="IN" typeId="8855-af7b-d9c2-228f">7</characteristic>
+                    <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                    <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="40"/>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="72e6-920d-235e-64e0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Perdition Weapons" hidden="false" id="7f4f-0053-d01a-547c" type="selectionEntryGroup" targetId="c4c7-1cce-e642-688e" sortIndex="1">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec21-9a5a-302a-30f2" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="130a-a8bc-5784-6216" automatic="true"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Any Model in this Unit may have its bolt pistol exchanged for " id="9b24-f748-ad0e-bc8f" hidden="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Bolt pistol" hidden="false" id="f3e5-7018-2522-ac67" type="selectionEntry" targetId="ea66-764a-ed62-0744">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8def-b875-4181-8dad"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Combat Shield" hidden="false" id="7ed3-2b19-a13f-fe2f" type="selectionEntry" targetId="072d-0125-b360-4c6e">
+                      <costs>
+                        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="2"/>
+                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7da9-6a7e-4387-af22"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Inferno Pistol" hidden="false" id="e063-9b3b-09c7-57af" type="selectionEntry" targetId="52f2-26f2-0b24-6835">
+                      <costs>
+                        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a81-beb7-48c2-af60"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d6c1-fee8-409b-ad95" automatic="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90cc-87a4-42e7-8c9e" automatic="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink name="Infantry Model Type" hidden="false" id="308c-4b1c-233a-9b6e" targetId="004b-f7b9-8d86-ecf0" primary="false"/>
+                <categoryLink name="Antigrav Model Sub-Type" hidden="false" id="cbf9-d123-2d0a-756a" targetId="dc1e-9850-77b6-3671" primary="false"/>
+                <categoryLink name="Command Model Sub-type" hidden="false" id="acd4-b53d-2d1b-e679" targetId="079c-7444-31e3-6a1a" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="da00-2c9c-b381-f0a6" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="5847-5d2f-e85e-030d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="52f2-26f2-0b24-6835" sortIndex="99">
       <profiles>
@@ -930,8 +974,22 @@
     </entryLink>
     <entryLink import="true" name="Sanguinary Guard" hidden="false" id="43e0-2042-8343-05d1" type="selectionEntry" targetId="8ff1-fa2c-685a-fcf6">
       <categoryLinks>
-        <categoryLink targetId="260f-13de-24a7-e14a" id="0f7b-c045-c4d1-55e2" primary="true" name="Elites"/>
+        <categoryLink targetId="59ce-22c6-9dcc-66a0" id="bf7f-e022-2e0f-d4ed" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Perdition Weapons" id="c4c7-1cce-e642-688e" hidden="false" defaultSelectionEntryId="ec6c-32ca-d517-e159">
+      <entryLinks>
+        <entryLink import="true" name="Blade of Perdition" hidden="false" id="ec6c-32ca-d517-e159" type="selectionEntry" targetId="f1f3-d86c-06ec-bb89" sortIndex="1"/>
+        <entryLink import="true" name="Axe of Perdition" hidden="false" id="af63-e051-feea-6025" type="selectionEntry" targetId="a9de-8103-16b3-5fd8" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Maul of Perdition" hidden="false" id="bd0e-6d3a-ec45-1833" type="selectionEntry" targetId="2cac-f44f-9b25-78b4" sortIndex="3"/>
+        <entryLink import="true" name="Spear of Perdition" hidden="false" id="e789-76c5-f011-dc4e" type="selectionEntry" targetId="26e5-5e2c-46eb-0399" sortIndex="4"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>

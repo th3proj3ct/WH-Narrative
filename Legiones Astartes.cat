@@ -2028,6 +2028,9 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
       <costs>
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="120"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="27bb-b3f8-a434-91c2" id="292b-a758-72d9-1ed9" primary="false" name="Free Power Weapon"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kratos Assault Tank" hidden="false" id="eb5d-bbf1-cc60-c5fc" sortIndex="50">
       <selectionEntries>
@@ -3655,6 +3658,7 @@ If a Model with this Special Rule is in Reserves, if that Model and every other 
       <categoryLinks>
         <categoryLink targetId="079c-7444-31e3-6a1a" id="f9c9-4209-4528-ae9d" primary="false" name="Command Model Sub-type"/>
         <categoryLink targetId="004b-f7b9-8d86-ecf0" id="e708-e946-b287-ef84" primary="false" name="Infantry Model Type"/>
+        <categoryLink targetId="27bb-b3f8-a434-91c2" id="58ff-f665-c78b-96c5" primary="false" name="Free Power Weapon"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Icon of Allegiance" hidden="false" id="0cbb-4705-892f-945a">
@@ -3720,11 +3724,25 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
           <costs>
             <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink import="true" name="Power axe" hidden="false" id="0c42-661e-0f9e-4d07" type="selectionEntry" targetId="391a-119d-863c-7cce">
           <costs>
             <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="0" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink import="true" name="Axe of Perdition" hidden="true" id="b6d5-8413-9a72-8ec2" type="selectionEntry" targetId="a9de-8103-16b3-5fd8">
           <modifiers>
@@ -3750,7 +3768,15 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
               </conditionGroups>
               <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
             </modifier>
+            <modifier type="set" value="5" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
         </entryLink>
         <entryLink import="true" name="Blade of Perdition" hidden="true" id="bbd2-1e77-1ff5-476b" type="selectionEntry" targetId="f1f3-d86c-06ec-bb89">
           <modifiers>
@@ -3776,7 +3802,15 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
               </conditionGroups>
               <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
             </modifier>
+            <modifier type="set" value="5" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
         </entryLink>
         <entryLink import="true" name="Maul of Perdition" hidden="true" id="2fb9-71f5-a03d-d5c2" type="selectionEntry" targetId="2cac-f44f-9b25-78b4">
           <modifiers>
@@ -3802,7 +3836,15 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
               </conditionGroups>
               <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
             </modifier>
+            <modifier type="set" value="5" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
         </entryLink>
         <entryLink import="true" name="Spear of Perdition" hidden="true" id="5e0e-58de-0f63-fed0" type="selectionEntry" targetId="26e5-5e2c-46eb-0399">
           <modifiers>
@@ -3828,7 +3870,15 @@ During the Decide Victor Step, at the end of the Battle, the Controlling Player 
               </conditionGroups>
               <comment>BA+Sgt/Cmd/Spec/Champ Only</comment>
             </modifier>
+            <modifier type="set" value="5" field="64d7-ccd2-e4b7-b956">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="27bb-b3f8-a434-91c2" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -4437,5 +4487,6 @@ At the start of the Move Sub-Phase, the Controlling Player of a Model with this 
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="34ac-da12-383e-5dd6" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Free Power Weapon" id="27bb-b3f8-a434-91c2" hidden="false"/>
   </categoryEntries>
 </catalogue>
