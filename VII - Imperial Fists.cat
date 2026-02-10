@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="5135-150c-aa34-250a" name="VII - Imperial Fists" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Templar Brethren" hidden="false" id="0096-62da-55d8-3912">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Templar Champion" hidden="false" id="2aa9-e386-3c29-5ee8" sortIndex="1">
+          <profiles>
+            <profile name="Templar Champion" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="b2cb-111c-41f3-5781">
+              <characteristics>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Champion, Sergeant)</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">3</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">9</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">8</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="523b-b451-d404-6b7c" id="403a-50b3-c3b9-9807" primary="false" name="Sergeant Model Sub-Type"/>
+            <categoryLink targetId="004b-f7b9-8d86-ecf0" id="d17f-9ae6-4026-12b0" primary="false" name="Infantry Model Type"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The Templar Champion in this Unit may have its power sword exchanged for one of the following:" id="5829-413c-b0f0-b5de" hidden="false" defaultSelectionEntryId="7e32-6cec-e103-8d52" sortIndex="1" collapsible="true">
+              <entryLinks>
+                <entryLink import="true" name="Power sword" hidden="false" id="f91d-42c1-6778-9fb9" type="selectionEntry" targetId="43bf-840b-fe42-d2b9" sortIndex="1"/>
+                <entryLink import="true" name="Thunder hammer" hidden="false" id="7686-da4c-f271-53b9" type="selectionEntry" targetId="5d90-0beb-144a-477f" sortIndex="3">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="243a-0cc7-ae55-4b9e" type="selectionEntry" targetId="e284-8c73-f5c8-d5b6" sortIndex="2">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65c6-d727-d1e7-90da" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cb0-baa8-f1fa-2703" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The Templar Champion in this Unit may exchanged its bolt pistol:" id="df2d-b229-cc28-86c3" hidden="false" defaultSelectionEntryId="6267-2df1-06f6-27f5" sortIndex="2" collapsible="true">
+              <entryLinks>
+                <entryLink import="true" name="Bolt pistol" hidden="false" id="3c46-f0f2-8a1c-4666" type="selectionEntry" targetId="ea66-764a-ed62-0744" sortIndex="1"/>
+                <entryLink import="true" name="Combat Shield" hidden="false" id="112c-53a7-5a7c-2409" type="selectionEntry" targetId="072d-0125-b360-4c6e" sortIndex="4">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="2"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="6641-6e16-9668-6832" type="selectionEntry" targetId="2c9a-8c2f-27e5-a01a" sortIndex="3">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="5"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="197f-be80-177e-7d7c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c19-df17-87f0-092f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0aab-34cb-ed0e-72b4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aab-34cb-ed0e-72b4-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Templar Brethren" hidden="false" id="a750-5f73-6c7d-1e16" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Power sword" hidden="false" id="fc36-c685-dc11-f706" type="selectionEntry" targetId="43bf-840b-fe42-d2b9" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9334-cee9-dc14-9c59-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9334-cee9-dc14-9c59-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <profiles>
+            <profile name="Templar Brethren" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="6725-cfef-ce5d-7bb0">
+              <characteristics>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">3</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">8</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="A Templar Brethren may exchanged its bolt pistol:" id="955b-4539-956b-6d7b" hidden="false" defaultSelectionEntryId="6627-0742-58b8-785f" sortIndex="2" collapsible="true">
+              <entryLinks>
+                <entryLink import="true" name="Bolt pistol" hidden="false" id="c6cf-3d54-1f80-8770" type="selectionEntry" targetId="ea66-764a-ed62-0744" sortIndex="1"/>
+                <entryLink import="true" name="Combat Shield" hidden="false" id="4153-c5a4-fe7f-b85a" type="selectionEntry" targetId="072d-0125-b360-4c6e" sortIndex="4">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="2"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="20b6-21a9-a21d-7593" type="selectionEntry" targetId="2c9a-8c2f-27e5-a01a" sortIndex="3">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="5"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d92e-ed3b-3b63-a164" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfdd-c397-8251-8c41" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Legion Equipment" id="c21e-9cd8-b300-0d8b" hidden="false" collapsible="true" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="0096-62da-55d8-3912" shared="true" id="f1c9-5123-2d1f-619d" includeChildSelections="true"/>
+                <constraint type="max" value="2" field="selections" scope="0096-62da-55d8-3912" shared="true" id="9610-99aa-e122-3694" includeChildSelections="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Nuncio-vox" hidden="false" id="4d0e-2771-7ceb-6c67" type="selectionEntry" targetId="5827-0c22-5322-5553">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Augury scanner" hidden="false" id="df8a-763b-9c03-40da" type="selectionEntry" targetId="1b8a-7d3d-14df-50a0">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Vexilla" id="d365-5102-8f55-949a" hidden="false" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="0096-62da-55d8-3912" shared="true" id="13e7-cc72-28fe-853c" includeChildSelections="true" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="0096-62da-55d8-3912" shared="true" id="79e7-0317-f038-6139" includeChildSelections="true"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Vexilla" hidden="false" id="70ca-a550-f9f6-23ee" type="selectionEntry" targetId="058c-dc3f-cdae-6999" flatten="true">
+                  <costs>
+                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1c1e-8086-ad36-e9df" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="2137-61c9-970c-792a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="30"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="27"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="004b-f7b9-8d86-ecf0" id="ae61-48ca-de32-3875" primary="false" name="Infantry Model Type"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Every Model in the Unit may have melta bombs:" hidden="false" id="78be-af86-8673-3a52" flatten="true">
+          <entryLinks>
+            <entryLink import="true" name="Melta Bombs" hidden="false" id="2e8a-686d-97bc-afb3" type="selectionEntry" targetId="c4d3-e682-d107-cb23">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="96e4-ea18-f5f3-cd5c-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96e4-ea18-f5f3-cd5c-max" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="dbfd-2203-af33-33e5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0873-afff-294a-2402" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="35"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Templar Assault" id="da2d-361b-b3af-2034" hidden="false">
+          <description>In the Assault Phase of any Player Turn in which they Disembarked from a Transport, melee weapons equipped by Models with this Special Rule gain the Impact (A) and Impact (S) special rules. This modifier does not apply if the Unit was forced to make an Emergency Disembarkation during the same Turn.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Krak grenades" hidden="false" id="b050-0548-0110-1e89" type="selectionEntry" targetId="325c-b493-8fb8-370a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d754-71be-7402-1c06" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3da8-afe7-6a5d-31f8" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Frag grenades" hidden="false" id="2016-fdd7-5442-1829" type="selectionEntry" targetId="e511-072f-7613-e74e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5482-9d60-daa9-2f16" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3936-80fa-9966-b713" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="55"/>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="52"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Solarite Power Gauntlet" hidden="false" id="e284-8c73-f5c8-d5b6">
+      <profiles>
+        <profile name="Solarite Power Gauntlet" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="b3a0-6a8b-6c13-84ac">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+4</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">2</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">2</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Critical Hit (X)" id="dba3-8f99-c9b7-d366" hidden="false" type="rule" targetId="57e4-1ff4-c160-0466">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Critical Hit (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Special Rules" id="eab7-e28c-54b3-4569" targetId="a2f9-617e-a8d9-a2a6"/>
+    <catalogueLink type="catalogue" name="Weapons" id="4a0b-2989-0e6b-ce52" targetId="8647-090c-4f18-f6fd"/>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="dc39-332e-cee9-6b70" targetId="0be6-9b7d-689b-495b" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Legion Astartes - Wargear" id="bfd2-9c40-4be9-10dd" targetId="0ad0-7f34-68df-4f35"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Templar Brethren" hidden="false" id="d1e1-2431-5200-dcea" type="selectionEntry" targetId="0096-62da-55d8-3912" sortIndex="30">
+      <categoryLinks>
+        <categoryLink targetId="260f-13de-24a7-e14a" id="37d0-910e-b0d7-dd5b" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

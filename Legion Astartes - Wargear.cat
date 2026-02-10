@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="0ad0-7f34-68df-4f35" name="Legion Astartes - Wargear" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Augury scanner" hidden="false" id="1b8a-7d3d-14df-50a0">
+      <profiles>
+        <profile name="Augury scanner" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="7b4d-8258-718c-af3f">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Augury scanners allow attacks to ignore Shrouded Damage Mitigation Tests.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">When a Shooting Attack made by a Unit that includes any Models with an augury scanner inflicts any Hits (excluding Hits from attacks made as Snap Shots), Shrouded Damage Mitigation Rolls cannot be made against those Hits.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combat Shield" hidden="false" id="072d-0125-b360-4c6e">
+      <profiles>
+        <profile name="Combat Shield" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="6d58-7df9-6ace-95b9">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A combat shield grants a 5+ Invulnerable Save and a bonus to Focus Rolls.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">A Model with a combat shield has a 5+ Invulnerable Save against attacks made with Melee Weapons. In addition a Model with a combat shield gains a +1 modifier to Focus Rolls made for it.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Legion standard" hidden="false" id="9e35-9a87-0594-b20c">
+      <profiles>
+        <profile name="Legion standard" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="dd52-f637-8489-0409">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Legion standards grant bonuses to Combat Resolution.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, score 2 Combat Resolution Points for each Unit that Combat that has any Models that have a Legion standard. In addition, a Model with a Legion Standard counts as an additional 6 Models for the purposes of Outside Support in a Challenge.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nuncio-vox" hidden="false" id="5827-0c22-5322-5553">
+      <profiles>
+        <profile name="Nuncio-vox" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="6dfc-b292-be88-51a1">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Nuncio-vox allow Units to remove Statuses in the Start Phase.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a Unit that includes one or more Models with a nuncio-vox, and there are one or more friendly Models on the Battlefield with the Command Sub-Type, then the Controlling Player may activate the nuncio-vox during the Start Phase of their Turn as the Active Player. When activated, the Controlling Player may make a Check to remove a single Tactical Status from all Models in the Unit that includes the nuncio-vox. This Check is made using the Characteristics of any one friendly Model on the Battlefield with the Command Sub-Type, chosen by the Controlling Player (using Cool, unless attempting to remove Routed, in which case Leadership is used). A nuncio-vox can only be activated once per Turn, and each Friendly Model on the Battlefield with the Command Sub-Type may only be used once per Start Phase as part of this Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="058c-dc3f-cdae-6999">
+      <profiles>
+        <profile name="Vexilla" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="2194-be3c-a786-4993">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A vexilla adds a bonus to Combat Resolution scores.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, score 1 Combat Resolution point for each Unit in that Combat that has any Models that have a vexilla.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Breacher Charges" hidden="false" id="3a8b-1b43-4c9b-bac8">
+      <profiles>
+        <profile name="Breacher Charges" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="4950-2f40-f917-3351">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">Breacher charges can be used in Close Combat to deal heavy damage to Fortifications.</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">In Step 2 of the Fight Sub-Phase a Model with breacher charges that is part of a Combat where all enemy Units are composed entirely of Models with the Fortification or Building Type may have the breacher charges declared as the Weapon that Model will use in that Sub-Phase.
+A Model that has breacher charges selected as its Weapon always has a Combat Initiative of 0 and may only make a single attack. Any attacks made for such a Model automatically Hit and no Hit Test is made for them, each such Hit has a Strength of 10, an AP of – and a Damage of D6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cyber-familiar" hidden="false" id="ca29-a190-77af-6562">
+      <profiles>
+        <profile name="Cyber-familiar" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="d44e-0c75-6f4f-6335">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Cyber-familiars grant a bonus to Intelligence Checks.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">The Controlling Play of a Model with a cyber-familiar can modify the results of Intelligence Checks made for that Model by -2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="7cc3-abfb-8528-0f0b">
+      <infoLinks>
+        <infoLink name="Bulky (X)" id="8ba0-4ba3-72e2-a398" hidden="false" type="rule" targetId="84a9-7815-fcc6-bdcd">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Bulky (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deep Strike" id="7465-acee-569a-cf4e" hidden="false" type="rule" targetId="8444-d183-3984-f12a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Searchlight" hidden="false" id="a0ef-4511-7160-73a1">
+      <profiles>
+        <profile name="Searchlight" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="fa13-06d4-972c-c832">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Searchlights allow attacks to ignore Shrouded Damage Mitigation Rolls.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">The Target Number of any Shrouded Damage Mitigation Tests is increased by +1 (to a maximum of 6+) when making Tests as a consequence of wounds, Penetrating Hits, or Glancing Hits inflicted by Shooting Attacks made by a Model that has searchlights that has Line of Sight to the Target Unit. Additionally a Model with searchlights may not make Shrouded Damage Mitigation Tests to negate wounds, Penetrating Hits or Glancing Hits.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dozer blade" hidden="false" id="f65c-ca65-1e58-76f3">
+      <profiles>
+        <profile name="Dozer blade" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="badd-28a0-0ef4-c0ed">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Dozer blades allow Models to ignore the Movement penalties of Difficult Terrain.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If the Controlling Player chooses for a Model with a dozer blade to enter any area of Difficult Terrain, the Unit does not apply a modifier to its movement during that Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Narthecium" hidden="false" id="18ae-3219-7069-ae2e">
+      <profiles>
+        <profile name="Narthecium" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="3a6b-a1fa-ddec-25fe">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A narthecium allows Recovery Tests to be made in the Morale Sub-Phase.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a Unit that includes any Models with a narthecium is not Locked in Combat, before the Controlling Player makes a Characteristic Check for that Unit during the Morale Sub-Phase, they can make a Medic Test for that Unit. If that Medic Test is successful, that Player can subtract -2 from the result of the Characteristic Check. Only one Medic Test can be made for each Unit in this way during each Morale Sub-Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thermal Diffraction Field" hidden="false" id="a00b-bded-c3b2-5566">
+      <profiles>
+        <profile name="Thermal Diffraction Field" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="607d-61e2-06dd-b54a">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;Thermal diffraction fields reduce the Damage of wounds inflicted by Weapons with specific Traits.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">A Model with a thermal diffraction field reduces the Strength of all Hits inflicted on it by Weapons with the Las, Plasma, Melta and Flame Trait by -1. In addition, when any Misfire Groups are generated by a Model with a thermal diffraction field as a result of the Overload (X) Special Rule, any instances of the Breaching (X) Special Rule on those Hits will only take effect on a Wound Test result of 6+, regardless of the value of X.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Occulix targeting auspex" hidden="false" id="2e91-7c46-fbd5-a4df">
+      <profiles>
+        <profile name="Occulix targeting auspex" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="09bd-3aff-a126-f1ab">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">When a Model with an occulix targeting auspex is selected to make a Shooting Attack, if that Model&apos;s Unit remained Stationary in the Controlling Player&apos;s preceding Movement Phase, that Model gains the Firing Protocols (2) Special Rule until the Shooting Attack is fully resolved.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Weapons" id="ada2-7fa8-61de-930a" targetId="8647-090c-4f18-f6fd"/>
+  </catalogueLinks>
+</catalogue>
