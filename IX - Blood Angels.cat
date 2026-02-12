@@ -713,7 +713,7 @@
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sanguinary Guard" hidden="false" id="8ff1-fa2c-685a-fcf6" sortIndex="5">
+    <selectionEntry type="unit" import="true" name="Sanguinary Guard" hidden="false" id="8ff1-fa2c-685a-fcf6" sortIndex="5">
       <entryLinks>
         <entryLink import="true" name="Frag grenades" hidden="false" id="8567-bebe-6e0b-c310" type="selectionEntry" targetId="e511-072f-7613-e74e">
           <constraints>
@@ -784,12 +784,6 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d02-3e75-d5a2-288b"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Perdition Weapons" hidden="false" id="3a31-8e0f-c9d2-3ec7" type="selectionEntryGroup" targetId="c4c7-1cce-e642-688e" sortIndex="1">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a75-7ea7-b3be-1be7" automatic="true"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="317b-b47f-5c6b-cfdb" automatic="true"/>
-                  </constraints>
-                </entryLink>
                 <entryLink import="true" name="Legion standard" hidden="false" id="b9d0-294b-0b05-fd6c" type="selectionEntry" targetId="9e35-9a87-0594-b20c" sortIndex="2">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1f8-955e-95c9-51b7"/>
@@ -806,6 +800,18 @@
                 <categoryLink name="Antigrav Model Sub-Type" hidden="false" id="9239-c570-0986-c85f" targetId="dc1e-9850-77b6-3671" primary="false"/>
                 <categoryLink name="Command Model Sub-type" hidden="false" id="47c9-4aed-5ae8-d826" targetId="079c-7444-31e3-6a1a" primary="false"/>
               </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Power Weapon" id="5668-297a-e214-fdac" hidden="false" defaultSelectionEntryId="2e95-6e6a-897b-678b" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="Power sword" hidden="false" id="2e95-6e6a-897b-678b" type="selectionEntry" targetId="43bf-840b-fe42-d2b9"/>
+                    <entryLink import="true" name="Power axe" hidden="false" id="3e27-9935-1a43-90ca" type="selectionEntry" targetId="391a-119d-863c-7cce"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="322c-db3b-624a-c2a0" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d695-c601-4bd4-32bb" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Sanguinary Guard" hidden="false" id="7eed-be8c-4d5f-9c7f" page="112" publicationId="5469-14da-d0a1-6092">
               <profiles>
@@ -842,6 +848,31 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec21-9a5a-302a-30f2" automatic="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="130a-a8bc-5784-6216" automatic="true"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="For every five Models in this Unit, one Model in this Unit may have its perdition weapon exchanged for " id="1c92-3c47-4736-1798" hidden="false">
+                      <entryLinks>
+                        <entryLink import="true" name="Paragon Blade" hidden="false" id="e369-1fa9-45f5-be21" type="selectionEntry" targetId="4a4e-75e7-346c-d358">
+                          <costs>
+                            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+                            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c026-e44c-4a50-947e"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="a195-5ac0-4c43-b922" includeChildSelections="true"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier type="increment" value="1" field="a195-5ac0-4c43-b922">
+                          <repeats>
+                            <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -888,18 +919,6 @@
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="da00-2c9c-b381-f0a6" includeChildSelections="false"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="5847-5d2f-e85e-030d" includeChildSelections="false"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="One model may take:" id="9774-514e-ffcd-9f3f" hidden="false" sortIndex="2">
-          <entryLinks>
-            <entryLink import="true" name="Paragon Blade" hidden="false" id="bd5d-f5ca-2cac-b239" type="selectionEntry" targetId="4a4e-75e7-346c-d358">
-              <costs>
-                <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8da6-a675-dbfc-6617" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
