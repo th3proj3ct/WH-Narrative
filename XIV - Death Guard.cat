@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="476f-cc66-7243-e70c" name="XIV - Death Guard" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="23e0-f83c-443f-59a4" targetId="0be6-9b7d-689b-495b" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="8554-80b0-bf36-fe3d" targetId="a2f9-617e-a8d9-a2a6"/>
+    <catalogueLink type="catalogue" name="Weapons" id="000a-0242-a168-7325" targetId="8647-090c-4f18-f6fd"/>
+    <catalogueLink type="catalogue" name="Legion Astartes - Wargear" id="33c2-eca1-f653-ddbd" targetId="0ad0-7f34-68df-4f35"/>
+  </catalogueLinks>
+</catalogue>

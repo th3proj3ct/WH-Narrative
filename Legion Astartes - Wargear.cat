@@ -133,6 +133,16 @@ A Model that has breacher charges selected as its Weapon always has a Combat Ini
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Machinator array" hidden="false" id="d767-ad91-0fa5-4a2c">
+      <profiles>
+        <profile name="Machinator array" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="9918-e55b-dc0e-2728">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Model with a machinator array can use the Battlesmith (X) Special Rule twice in the same Turn.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Each time the Controlling Player of a Model with a machinator array chooses to make use of the Battlesmith (X) Special Rule for that Model, it may be used twice - with each usage of the Special Rule targeting the same or different target Units as chosen by the Controlling Player and may apply different effects (all targets chosen must be valid targets). If a player chooses to apply the effects of a Machinator Array and makes two Battlesmith actions then neither of those actions may be modified by the effects of a servo-arm and use only the base value of the Model&apos;s Battlesmith (X) Special Rule to determine their effect.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Weapons" id="ada2-7fa8-61de-930a" targetId="8647-090c-4f18-f6fd"/>

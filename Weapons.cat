@@ -2960,6 +2960,285 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Quad Launcher" hidden="false" id="fee6-b96d-4c57-7c5a">
+      <profiles>
+        <profile name="Quad launcher (Frag)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6736-dfe4-8b9e-662b" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">60</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">5</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">5</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (FP), Blast (5&quot;), Barrage (2)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1"/>
+          </characteristics>
+        </profile>
+        <profile name="Quad launcher (Shatter)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6d70-74f2-afd2-66ca">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">4</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">7</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="a9c7-04db-bf13-dec4" hidden="false" type="rule" targetId="afa7-db8e-5165-e08b">
+          <comment>Shatter</comment>
+          <modifiers>
+            <modifier type="set" value="Armourbane (Shatter)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="7500-873a-8816-28a6" hidden="false" type="rule" targetId="d916-ab56-b67b-dd12">
+          <modifiers>
+            <modifier type="set" value="Barrage (2) (Frag)" field="name"/>
+          </modifiers>
+          <comment>2 (Frag)</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="5b86-3150-c64c-1973" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="279c-bb11-0d0b-af10" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <comment>(FP) (Frag)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (FP) (Frag)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="7ab3-8b2c-7a71-b8bc" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <comment>(D) (Shatter)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (D) (Shatter)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Phosphex Canister Shot" hidden="true" id="94f1-80a6-f87e-44fe" flatten="false">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="fed1-db9b-82be-228c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a60-d0d1-479c-70e3"/>
+          </constraints>
+          <profiles>
+            <profile name="Quad Launcher (Phosphex Canister Shot)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="true" id="0b39-e8e0-d702-0486">
+              <characteristics>
+                <characteristic name="R" typeId="c686-829c-aef5-ccf2"/>
+                <characteristic name="FP" typeId="c943-b9e0-1496-6fa7"/>
+                <characteristic name="S" typeId="591a-4268-a46f-9af6"/>
+                <characteristic name="AP" typeId="e137-b19a-087a-f2e7"/>
+                <characteristic name="D" typeId="770e-2783-e159-33e6"/>
+                <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633"/>
+                <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Poisoned (X)" id="844c-bfc6-6314-9beb" hidden="true" type="rule" targetId="227e-f7c5-2aae-5932">
+              <comment>3+ (Phosphex canister shot)</comment>
+              <modifiers>
+                <modifier type="set" value="Poisoned (3+) (Phosphex canister shot)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Breaching (X)" id="8356-ebf2-fdd1-f179" hidden="true" type="rule" targetId="6b8b-c85d-3684-26f3">
+              <modifiers>
+                <modifier type="set" value="Breaching (5+) (Phosphex canister shot)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>5+ (Phosphex canister shot)</comment>
+            </infoLink>
+            <infoLink name="Panic (X)" id="11b4-647a-7443-411a" hidden="true" type="rule" targetId="683f-e5c4-e469-a31d">
+              <comment>3 (Phosphex canister shot)</comment>
+              <modifiers>
+                <modifier type="set" value="Panic (3) (Phosphex canister shot)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Barrage (X)" id="b4b7-8078-5615-f010" hidden="true" type="rule" targetId="d916-ab56-b67b-dd12">
+              <modifiers>
+                <modifier type="set" value="Barrage (1) (Phosphex canister shot)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <comment>1 (Phosphex canister shot)</comment>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+            <cost name="Auxilary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+            <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="Quad Launcher - (Frag) (Shatter)" field="name">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="Quad Launcher - (Frag) (Shatter) (Phosphex)" field="name">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="94f1-80a6-f87e-44fe" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="2b12-1dc7-c7f1-7089">
+      <profiles>
+        <profile name="Missile launcher (Flak)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="0288-83a4-4bef-7be5">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">8</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D), Skyfire</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Missile launcher (Frag)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="302f-2fbe-c511-35e2">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">6</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (RS), Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Missile launcher (Krak)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="4610-3497-1e9b-fe8d">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">8</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">3</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="93ab-870e-acae-7027" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>3&quot; (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="ed57-0302-d273-56c1" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <modifiers>
+            <modifier type="set" value="Heavy RS (Frag)" field="name"/>
+          </modifiers>
+          <comment>RS (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="395a-186e-88ec-080d" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <comment>D (Krak &amp; Flak)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (D) (Krak &amp; Flak)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Skyfire" id="403b-e7d0-dac4-0305" hidden="false" type="rule" targetId="d7e3-82c5-0b40-b65c">
+          <modifiers>
+            <modifier type="set" value="Skyfire (Flak)" field="name"/>
+          </modifiers>
+          <comment>Flak</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="3f75-2599-47a2-f210">
+      <profiles>
+        <profile name="Plasma cannon (Maximal)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6b8f-94b0-6175-789d">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (RS), Blast (3&quot;), Breaching (5+), Overload (2)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma cannon (Sustained)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="d16a-f2a9-195d-03bb" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (RS), Blast (3&quot;), Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="dd32-a6b2-735d-7e89" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="e0cc-f09f-720b-d570" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="f543-5167-187d-af58" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="f986-b4ed-81a2-2352" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="a064-178b-531f-3cac" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <modifiers>
+            <modifier type="set" value="Overload (2)" field="name"/>
+          </modifiers>
+          <comment>2 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>

@@ -11,16 +11,70 @@
     <categoryEntry name="Warlord" id="9f10-b097-0530-7736" hidden="false"/>
     <categoryEntry name="Lord of War" id="f15c-973e-a384-efe8" hidden="false"/>
     <categoryEntry name="Support" id="c430-1f22-440b-75fe" hidden="false"/>
-    <categoryEntry name="Infantry Model Type" id="004b-f7b9-8d86-ecf0" hidden="false"/>
+    <categoryEntry name="Infantry Model Type" id="004b-f7b9-8d86-ecf0" hidden="false">
+      <rules>
+        <rule name="Infantry Type" id="cffa-cc6d-5d2d-5d4a" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+          <description>Infantry is the most basic Type, and is applied to most Models in the game. A Model with the Infantry Type uses the Core Rules without modification, gaining neither benefit nor penalty. Models with the Infantry Type may Embark and Disembark upon Models with the Transport Sub-Type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
     <categoryEntry name="Character" id="f80d-9049-d669-c650" hidden="false"/>
     <categoryEntry name="Cavalry Unit Type" id="7fe2-da76-e07f-4f75" hidden="false"/>
-    <categoryEntry name="Light Sub-type" id="65da-4619-5544-e9b7" hidden="false"/>
+    <categoryEntry name="Light Sub-type" id="65da-4619-5544-e9b7" hidden="false">
+      <rules>
+        <rule name="Light Sub-Type" id="b7b9-0733-dadf-ffd0" hidden="false" publicationId="7d63-5df4-c656-52de" page="177">
+          <description>The following Rules apply to all Models with the Light Sub-Type:
+- A Unit that includes only Models with the Light Sub-Type gain a +2 modifier to its Initiative when determining how far that Unit may Rush (this bonus stacks with other bonuses to Rush distance).
+- A Unit that includes only Models with the Light Sub-Type may make Shooting Attacks after having Rushed, but makes all such Shooting Attacks as Snap Shots. Models or Weapons that cannot attack as Snap Shots may not make attacks.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
     <categoryEntry name="Vehicle Model Type" id="9e44-f90c-d951-96a5" hidden="false"/>
-    <categoryEntry name="Antigrav Model Sub-Type" id="dc1e-9850-77b6-3671" hidden="false"/>
-    <categoryEntry name="Walker Model Type" id="b1a6-ca9c-ed8b-e309" hidden="false"/>
-    <categoryEntry name="Skirmish Model Sub-Type" id="1c58-b337-dacb-f43f" hidden="false"/>
-    <categoryEntry name="Heavy Model Sub-Type" id="e20d-00cc-6f35-6d59" hidden="false"/>
-    <categoryEntry name="Sergeant Model Sub-Type" id="523b-b451-d404-6b7c" hidden="false"/>
+    <categoryEntry name="Antigrav Model Sub-Type" id="dc1e-9850-77b6-3671" hidden="false">
+      <rules>
+        <rule name="Antigrav Sub-Type" id="6568-dcd0-c748-2d3b" hidden="false" publicationId="7d63-5df4-c656-52de" page="178">
+          <description>The following Rules apply to all Models with the Antigrav Sub-Type:
+- A Unit that includes only Models with the Antigrav Sub-Type may ignore the effects of any and all Terrain it passes over during movement, including passing over Impassable Terrain without penalty or restriction. However, such Units may not begin or end their movement in Impassable Terrain, and if beginning or ending their movement in Dangerous Terrain must take Dangerous Terrain Tests as normal.
+- A Unit that includes only Models with the Antigrav Sub-Type may ignore both friendly and enemy Models and Units when Moving. However,, when moving over a friendly Unit all Models with the Antigrav Sub-Type must end their move at least 1&quot; away from all models that are not part of the same Unit, or if moving over an enemy Unit, must end their move at least 1&quot; away from any enemy Model.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Walker Model Type" id="b1a6-ca9c-ed8b-e309" hidden="false">
+      <rules>
+        <rule name="Walker Type" id="6f94-3139-db01-ba4b" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+          <description>The following Rules apply to all Models with the Walker Type:
+- When targeting a Unit that includes any Models with the Walker Type, the effects of the Poisoned (X) Special Rule only trigger a Wound Test with a result of a &apos;6&apos; before modifiers are applied, regardless of the value of X for that variant of the Special Rule.
+- A Model with the Walker Type may attack with all Weapons they have in each Shooting Attack they make, including as part of a Reaction. Note that this does not allow Weapons that do not have the Assault Trait to be used to attack as part of a Volley Attack.
+- In Step 1 of the Resolution Sub-Phase, when deciding how many Models a Player controls in a Combat, a Model with the Walker Type counts as a number of Models equal to that Model&apos;s Base Wounds Value.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Skirmish Model Sub-Type" id="1c58-b337-dacb-f43f" hidden="false">
+      <rules>
+        <rule name="Skirmish Sub-Type" id="c85e-4770-667b-0f23" hidden="false" publicationId="7d63-5df4-c656-52de" page="178">
+          <description>The following Rules apply to all Models with the Skirmish Sub-Type:
+- A Unit that includes only Models with the Skirmish Sub-Type has a Unit Coherency range of 3&quot; rather than 2&quot;.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Heavy Model Sub-Type" id="e20d-00cc-6f35-6d59" hidden="false">
+      <rules>
+        <rule name="Heavy Sub-Type" id="0189-1ed1-b678-b78e" hidden="false" publicationId="7d63-5df4-c656-52de" page="177">
+          <description>The following Rules apply to all Models with the Heavy Sub-Type:
+- A Unit that includes only Models with the Heavy Sub-Type gains a bonus of +1 to its Cool Characteristics for Checks to avoid gaining Tactical Statuses.
+- A Unit that includes any Models with the Heavy Sub-Type may not Rush.
+- A Unit that includes any Models with the Heavy Sub-Type only uses its Movement Characteristic to determine how far it moves as part of a Set-up Move, not Movement and Initiative totalled.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Sergeant Model Sub-Type" id="523b-b451-d404-6b7c" hidden="false">
+      <rules>
+        <rule name="Sergeant Sub-Type" id="dabe-f358-116b-13c1" hidden="false" publicationId="7d63-5df4-c656-52de" page="177">
+          <description>The following Rules apply to all Models with the Sergeant Sub-Type:
+- The Controlling Player of a Unit that includes one or more Models with the Sergeant Sub-Type may use the Characteristics of one of those Models to resolve any Characteristic Check made for that Unit.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
     <categoryEntry name="Command Model Sub-type" id="079c-7444-31e3-6a1a" hidden="false">
       <rules>
         <rule name="Command Sub-Type" id="8f28-6c04-1860-cc0b" hidden="false">

@@ -285,7 +285,6 @@ A Unit that includes a majority of Models with the Vanguard (X) Special Rule may
 Note that the Vanguard (X) Special Rule may only be used to score Victory Points once per Objective per Player Turn - no matter how many enemy Units were Controlling or Locked in Combat near that Objective.</description>
     </rule>
     <rule name="Line (X)" id="6082-10a1-7474-e0cb" hidden="false"/>
-    <rule name="Support Unit (X)" id="4e96-7619-0144-a56d" hidden="false"/>
     <rule name="Light Transport" id="fe88-91bf-29c8-dfc8" hidden="false">
       <description>&quot;Models with this Special Rule cannot carry Models with the Bulky (X) Special Rule.&quot;
 Models that have any variant of the Bulky (X) Special Rule may not Embark on a Model that has this Special Rule.</description>
@@ -293,6 +292,22 @@ Models that have any variant of the Bulky (X) Special Rule may not Embark on a M
     <rule name="Fear (X)" id="0b8e-22b9-4a68-a71e" hidden="false">
       <description>&quot;Models near an enemy Model with the Fear (X) Special Rule must reduce their Advanced Characteristics.&quot;
 When any Model from a Unit is within 12&quot; of an enemy Model with the Fear (X) Special Rule, all Models in that Unit must reduce their Leadership, Willpower, Cool, and Intelligence Characteristics by the value of X. This negative modifier is removed as soon as no Models in a given Unit are within 12&quot; of any Model with the Fear (X) Special Rule. If a Unit would be affected by multiple instances of the Fear (X) Special Rule, the value of X is not stacked and instead the single highest value is used as a negative modifier.</description>
+    </rule>
+    <rule name="Battlesmith (X)" id="5567-e3e1-b90d-070d" hidden="false">
+      <description>&quot;A model with the Battlesmith (X) Special Rule can repair Vehicles, Automata, and other mechanical Units.&quot;
+&quot;In the Controlling Player&apos;s Movement Phase as the Active Player, when a Model with the Battlesmith (X) Special Rule has been selected, but either before or after it has been moved, the Controlling Player of that Model may activate this Special Rule. Once activated, the Controlling Player of the Model with the Battlesmith (X) Special Rule hereafter referred to as the &apos;Acting Model&apos;, must select one friendly Model within 6&quot;&quot; of the Acting Model. The Model selected must have the Vehicle, Automata, or Walker Type and is hereafter referred to as the &apos;Target Model&apos;. Once a Target Model has been selected, the Player controlling the Acting Model must make an Intelligence Check for the Acting Model.
+
+
+If the Check is failed there is no further effect, but if the Check is passed then the Player controlling the Acting Model may select one of the following options:
+
+
+- Repair - The Target Model gains a number of Wounds or Hull Points equal to the value of X in the Battlesmith (X) Special Rule variant possessed by the Acting Model. This cannot increase the Target Model&apos;s Wounds or Hull Points above its Base Value.
+
+
+- Restore - A number of Statuses equal to the value of X in the Battlesmith (X) Special Rule variant possessed by the Acting Model may be removed from the Target Model.
+
+
+Activating the Battlesmith (X) Special Rule does not limit the Acting Model or the Target Model when moving or attacking in the same Turn.&quot;</description>
     </rule>
   </sharedRules>
 </catalogue>
