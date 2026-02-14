@@ -3239,6 +3239,198 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arcus missile launcher" hidden="false" id="a239-a629-7652-aef4">
+      <profiles>
+        <profile name="Arcus missile launcher (Arcus)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="17e6-64cc-a839-486e">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">5</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">8</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">2</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">-</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Neutron-flux)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="dfe4-3b52-707c-7735">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">7</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Shock (Suppressed)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Pyrax)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="7914-7bf6-90f8-5c5c">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">5</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (5&quot;), Panic (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Skyspear)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="275e-8d28-7516-d2a7">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">8</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">2</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Skyfire, Armourbane, Rapid Tracking</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="8215-a8a3-5369-771e" hidden="false" type="rule" targetId="afa7-db8e-5165-e08b">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Skyspear)" field="name"/>
+          </modifiers>
+          <comment>Skyspear</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="958d-acb9-4d13-5ff7" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <comment>5&quot; (Pyrax)</comment>
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Pyrax)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Panic (X)" id="ff97-0b07-6c44-a042" hidden="false" type="rule" targetId="683f-e5c4-e469-a31d">
+          <comment>1 (Pyrax)</comment>
+          <modifiers>
+            <modifier type="set" value="Panic (1) (Pyrax)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rapid Tracking" id="0186-7cac-e893-dc0f" hidden="false" type="rule" targetId="4f7f-2049-c347-ce5a">
+          <modifiers>
+            <modifier type="set" value="Rapid Tracking (Skyspear)" field="name"/>
+          </modifiers>
+          <comment>Skyspear</comment>
+        </infoLink>
+        <infoLink name="Shock (X)" id="9743-3e07-0a06-c656" hidden="false" type="rule" targetId="e390-9ef2-c903-d0c9">
+          <comment>Suppressed (Neutron-flux)</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Suppressed) (Neutron-flux)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Skyfire" id="4d2f-8ff5-7e89-6d8e" hidden="false" type="rule" targetId="d7e3-82c5-0b40-b65c">
+          <comment>Skyspear</comment>
+          <modifiers>
+            <modifier type="set" value="Skyfire (Skyspear)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="e46c-864d-368c-227f">
+      <profiles>
+        <profile name="Omega plasma array (Maximal)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="0ee1-128a-4a46-3162">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">8</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (5&quot;), Breaching (4+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Omega plasma array (Sustained)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="9665-112c-9b5f-fa1f">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">6</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">7</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="451c-41a6-29bc-79b9" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="6a0c-c8d9-2766-793b" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>5+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="8bf8-f3f5-f7ff-8dc0" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>4+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="f6d8-15d3-12ec-3193" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Punisher rotary cannon" hidden="false" id="a005-0c24-d808-81e1">
+      <profiles>
+        <profile name="Punisher rotary cannon" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="c64f-0d48-2035-c565">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">8</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Ordnance (FP), Suppressive (2)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Auto</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ordnance (X)" id="6d7d-3755-7655-d019" hidden="false" type="rule" targetId="ed4d-af28-16dd-cc6f">
+          <comment>FP</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (FP)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Suppressive (X)" id="a697-e93d-7005-497a" hidden="false" type="rule" targetId="162b-405a-d989-89f9">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Suppressive (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin accelerator autocannon" hidden="false" id="c263-ff5f-a168-4231">
+      <profiles>
+        <profile name="Twin accelerator autocannon" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="7e07-1480-738b-ce3e">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">6</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">7</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+), Rapid Tracking, Skyfire</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Auto</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="8685-55e5-6eb5-9578" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Rapid Tracking" id="c105-343b-9fc8-3f9b" hidden="false" type="rule" targetId="4f7f-2049-c347-ce5a"/>
+        <infoLink name="Skyfire" id="fc23-2985-4546-4335" hidden="false" type="rule" targetId="d7e3-82c5-0b40-b65c"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>

@@ -122,6 +122,7 @@
         </rule>
       </rules>
     </categoryEntry>
+    <categoryEntry name="Siege Breaker" id="fed1-db9b-82be-228c" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Primary Force" id="a7b6-b4fb-ac35-e8bf" hidden="false">
