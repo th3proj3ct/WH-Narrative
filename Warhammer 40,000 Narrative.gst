@@ -123,6 +123,7 @@
       </rules>
     </categoryEntry>
     <categoryEntry name="Siege Breaker" id="fed1-db9b-82be-228c" hidden="false"/>
+    <categoryEntry name="Specialist" id="097f-883b-71dc-aa4b" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Primary Force" id="a7b6-b4fb-ac35-e8bf" hidden="false">
@@ -132,6 +133,13 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c9d-51ce-af77-34e7"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4063-59eb-31e9-a3a2"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="4063-59eb-31e9-a3a2">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="097f-883b-71dc-aa4b" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Troops" hidden="false" id="3e35-aaf7-a442-de4c" targetId="026e-adc5-8a2e-1438">
           <constraints>

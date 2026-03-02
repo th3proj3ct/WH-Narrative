@@ -309,5 +309,21 @@ If the Check is failed there is no further effect, but if the Check is passed th
 
 Activating the Battlesmith (X) Special Rule does not limit the Acting Model or the Target Model when moving or attacking in the same Turn.&quot;</description>
     </rule>
+    <rule name="Infiltrate (X)" id="ed2b-77e6-bd37-fee2" hidden="false" page="301" publicationId="b905-0414-1057-bb34">
+      <description>&quot;Models with the Infiltrate (X) Special Rule can deploy outside of their Deployment Zone.&quot; 
+At the start of a Mission, when deploying Units, the Controlling Player of a Unit that is composed entirely of Models with the Infiltrate (X) Special Rule may choose to deploy that Unit outside of that Player’s Deployment Zone. That Unit may be deployed anywhere that is either in the Controlling Player’s Deployment Zone or outside of the Opposing Player’s Deployment Zone and is at least a number of inches equal to the highest value of X attached to any variant of the Infiltrate (X) Special Rule in that Unit away from any Enemy Model.
+
+Units deployed using the Infiltrate (X) Special Rule are deployed at the same time as other Units under a Player’s control, unless the specific Rules of a given Mission state otherwise. The Infiltrate (X) Special Rule only has an effect when deploying Units before the start of the First Turn of a Battle, and Units deploying on the Battlefield after the First Turn has begun gain no benefit from this Special Rule. A Unit that is deployed outside of the Controlling Player’s Deployment Zone by means of this Special Rule may not have a Charge declared for in the Firs Battle Turn.</description>
+    </rule>
+    <rule name="Move Through Cover" id="44d9-f20d-00bf-dc98" hidden="false" publicationId="7d63-5df4-c656-52de" page="333">
+      <description>&quot;The Move Through Cover Special Rule allows the penalties of terrain to be ignored.&quot;
+A Unit that includes at least one Model with the Move Through Cover Special Rule ignores the effects of Difficult Terrain and Dangerous Terrain. If called upon to take a Dangerous Terrain Test then such a Unit is assumed to automatically pass without any Dice being rolled.</description>
+    </rule>
+    <rule name="Expendable (X)" id="a1b7-e3d5-b8a0-298f" hidden="false" publicationId="b905-0414-1057-bb34" page="298">
+      <description>&quot;A Player scores less Victory Points when they destroy a Unit that includes only Models with this Special Rule.&quot;
+The number of Victory Points scored by the opponent when a Unit that includes only Models with this Special Rule is entirely Removed as Casualties, for example, as part of the Vanguard (X) Special Rule, First Strike (X) or Slay the Warlord (X) Mission Special Rule, is reduced by the value of X, to a minimum of 1. If a Unit includes Models with different variants of this Special Rule, then the lowest value of X that was present on any Model in that Unit at the start of the Player Turn in which the last Model in the Unit is Removed as a Casualty is used to determine the effect of this Special Rule on that Unit.
+
+Note that, if, at the start of the Player Turn a Unit includes any Models that do not have this Special Rule, then this Special Rule has no effect on that Unit for the duration of that Player Turn regardless of how many other Models in the Unit may have any variant of this Special Rule.</description>
+    </rule>
   </sharedRules>
 </catalogue>
