@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Warhammer 40,000 Narrative" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Warhammer 40,000 Narrative" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Command" id="59ce-22c6-9dcc-66a0" hidden="false"/>
     <categoryEntry name="Troops" id="026e-adc5-8a2e-1438" hidden="false"/>
@@ -44,7 +44,8 @@
         <rule name="Walker Type" id="6f94-3139-db01-ba4b" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
           <description>The following Rules apply to all Models with the Walker Type:
 - When targeting a Unit that includes any Models with the Walker Type, the effects of the Poisoned (X) Special Rule only trigger a Wound Test with a result of a &apos;6&apos; before modifiers are applied, regardless of the value of X for that variant of the Special Rule.
-- A Model with the Walker Type may attack with all Weapons they have in each Shooting Attack they make, including as part of a Reaction. Note that this does not allow Weapons that do not have the Assault Trait to be used to attack as part of a Volley Attack.
+- A Model with the Walker Type may attack with all Weapons they have in each Shooting Attack they make, including as part of a Reaction. 
+- A Model with the Walker Type may split fire with its weapons among multiple targets.
 - In Step 1 of the Resolution Sub-Phase, when deciding how many Models a Player controls in a Combat, a Model with the Walker Type counts as a number of Models equal to that Model&apos;s Base Wounds Value.</description>
         </rule>
       </rules>
