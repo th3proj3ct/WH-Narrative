@@ -163,6 +163,7 @@
                 <modifier type="set" value="Auto-Repair (3+)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Gravitic Backwash" id="bca2-7eb8-eed5-9f4e" hidden="false" type="rule" targetId="dd27-1341-0fd5-4f8f"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Twin Arachnus Blaze Cannon" hidden="false" id="c0ea-4e3e-a00f-5868">
@@ -243,12 +244,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Wargear" id="8d26-29fc-51c3-a775" hidden="false" defaultSelectionEntryId="067c-bbd6-9371-3d02">
               <entryLinks>
-                <entryLink import="true" name="Guardian Spear" hidden="false" id="067c-bbd6-9371-3d02" type="selectionEntry" targetId="7873-5289-aecb-763f">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ad4-6595-5621-ad68" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16ce-85c8-0059-00e0" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
+                <entryLink import="true" name="Guardian Spear" hidden="false" id="067c-bbd6-9371-3d02" type="selectionEntry" targetId="7873-5289-aecb-763f"/>
                 <entryLink import="true" name="Castellan Axe" hidden="false" id="b1ce-f221-ec03-69f8" type="selectionEntry" targetId="04fd-2ba2-8cc7-12e4"/>
               </entryLinks>
               <constraints>
@@ -448,7 +444,7 @@
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4d9f-96ea-994b-76d2" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4d9f-96ea-994b-76d2" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="390a-504d-ee65-618c" includeChildSelections="false"/>
           </constraints>
           <costs>
@@ -937,7 +933,7 @@
             </entryLink>
           </entryLinks>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6198-0145-b8a8-231d" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6198-0145-b8a8-231d" includeChildSelections="false"/>
             <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1854-f13a-021f-3cd7" includeChildSelections="false"/>
           </constraints>
           <costs>
@@ -1026,6 +1022,12 @@
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4953-ba94-1e31-ce5e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2a-ca14-bc80-98de" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Praesidium Shield" hidden="false" id="3b79-a38d-d12d-fd6f" type="selectionEntry" targetId="cc4a-1bcc-d9bf-626f">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46dd-7ddc-2082-7cf7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7645-9c11-008c-cc4c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1167,11 +1169,13 @@
           <comment>6</comment>
         </infoLink>
         <infoLink name="Assault Vehicle" id="25ad-203a-8f6d-dc03" hidden="false" type="rule" targetId="b34e-013b-4c53-468d"/>
+        <infoLink name="Gravitic Backwash" id="94a1-d784-6ed8-c3b2" hidden="false" type="rule" targetId="dd27-1341-0fd5-4f8f"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="8676-3c26-63d0-821d" id="c1fa-38d1-9168-d442" primary="true" name="Dedicated Transport"/>
         <categoryLink targetId="dc1e-9850-77b6-3671" id="89f7-96d4-f82e-df2a" primary="false" name="Antigrav Model Sub-Type"/>
         <categoryLink targetId="9e44-f90c-d951-96a5" id="fb9c-83e9-e6dc-51d0" primary="false" name="Vehicle Model Type"/>
+        <categoryLink targetId="98b2-e8e7-c207-07ff" id="f87e-e0df-49ae-6e87" primary="false" name="Transport Model Sub-Type"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Caladius Grav-Tank" hidden="false" id="c42e-5f54-adf7-9c24">
@@ -1219,7 +1223,7 @@
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Turret Gun" id="8f16-23a1-f46a-b4ae" hidden="false" defaultSelectionEntryId="d13e-0c46-bf1b-a653">
+        <selectionEntryGroup name="Turret Gun" id="8f16-23a1-f46a-b4ae" hidden="false" defaultSelectionEntryId="5040-0063-79a4-df34">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Twin Iliastus Accelerator Cannon" hidden="false" id="5040-0063-79a4-df34">
               <profiles>
@@ -1317,6 +1321,10 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbbf-366b-01c0-3d4f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f818-a623-f78d-e250" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -1333,6 +1341,7 @@
           </modifiers>
           <comment>6</comment>
         </infoLink>
+        <infoLink name="Gravitic Backwash" id="446c-9d12-6f21-fa2b" hidden="false" type="rule" targetId="dd27-1341-0fd5-4f8f"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="a088-84e9-3af7-8255" id="b663-2abf-fb17-572d" primary="true" name="Heavy Support"/>
@@ -2353,46 +2362,10 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Relics of Terra" hidden="false" id="1477-6f00-1f1a-c850" type="selectionEntryGroup" targetId="7dbe-bbee-e0a6-a0e5"/>
+        <entryLink import="true" name="Custodes Vexilla" hidden="false" id="d41f-4561-e85a-3339" type="selectionEntry" targetId="2e4c-5577-6ab0-3bee"/>
+        <entryLink import="true" name="Vexilla" hidden="false" id="2c1b-4ae8-9528-02c2" type="selectionEntryGroup" targetId="a482-afe4-081c-d89f"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Vexilla" id="a482-afe4-081c-d89f" hidden="false" defaultSelectionEntryId="80ee-0e53-e59e-8361">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Imperius" hidden="false" id="1cf1-dbeb-4dd0-34cf">
-              <profiles>
-                <profile name="Vexilla Imperius" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="85b5-9daf-e0a9-577f">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">IMPERIUM INFANTRY units have a 5+ invulnerable save against ranged weapons whilst they are wholly within 9&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Defensor" hidden="false" id="efbf-0ce3-a0c6-9b63">
-              <profiles>
-                <profile name="Vexilla Defensor" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="3451-1568-a346-c893">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">ADEPTUS CUSTODES models (other than VEHICLES) add 1 to their Attacks characteristic whilst their unit is within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Magnifica" hidden="false" id="80ee-0e53-e59e-8361">
-              <profiles>
-                <profile name="Vexilla Magnifica" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="2567-d54c-7286-d8cd">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Your opponent must subtract 1 from hit rolls in the Shooting phase for attacks that target ADEPTUS CUSTODES units within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f17-7d69-3dfa-4fc7" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae71-6b1a-138e-a697" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Wargear" id="c781-68e2-da26-857c" hidden="false">
           <entryLinks>
             <entryLink import="true" name="Castellan Axe" hidden="false" id="d6c3-882f-163c-3819" type="selectionEntry" targetId="04fd-2ba2-8cc7-12e4"/>
@@ -2405,22 +2378,6 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Custodes Vexilla" hidden="false" id="2e4c-5577-6ab0-3bee">
-          <profiles>
-            <profile name="Custodes Vexilla" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="cc7a-3330-4ca2-bfb8">
-              <characteristics>
-                <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Vexilla allow Units to remove Statuses in the Start Phase.&quot;</characteristic>
-                <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a friendly Loyalist Unit can draw Line of Sight to the Vexilus Praetor, then during the Start Phase of their turn as the Active Player, the Controlling Player may make a Check to remove a single Tactical Status from all Models in the Unit that can draw line of sight to the Vexilus Praetor. A Vexilus Praetor can only be chosen for this ability once per Turn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8021-f664-b7dc-5c42" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce3f-933b-8f09-962d" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <categoryLinks>
         <categoryLink targetId="59ce-22c6-9dcc-66a0" id="5bcf-9429-1bea-48fa" primary="true" name="Command"/>
         <categoryLink targetId="004b-f7b9-8d86-ecf0" id="3783-224d-f6c9-a5f1" primary="false" name="Infantry Model Type"/>
@@ -2617,63 +2574,9 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Relics of Terra" hidden="false" id="dea6-304d-f532-1dac" type="selectionEntryGroup" targetId="7dbe-bbee-e0a6-a0e5"/>
+        <entryLink import="true" name="Vexilla" hidden="false" id="f1df-2d75-da7b-fdf6" type="selectionEntryGroup" targetId="a482-afe4-081c-d89f"/>
+        <entryLink import="true" name="Custodes Vexilla" hidden="false" id="21c7-910d-a2e3-cd9d" type="selectionEntry" targetId="2e4c-5577-6ab0-3bee"/>
       </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Vexilla" id="c20a-7906-b198-b19f" hidden="false" defaultSelectionEntryId="80ee-0e53-e59e-8361">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Imperius" hidden="false" id="039e-ce32-b027-f472">
-              <profiles>
-                <profile name="Vexilla Imperius" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="495c-657d-8622-2f6f">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">IMPERIUM INFANTRY units have a 5+ invulnerable save against ranged weapons whilst they are wholly within 9&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Defensor" hidden="false" id="40a7-d0db-5b1e-4e4e">
-              <profiles>
-                <profile name="Vexilla Defensor" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="ffab-15b9-907e-48dd">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">ADEPTUS CUSTODES models (other than VEHICLES) add 1 to their Attacks characteristic whilst their unit is within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vexilla Magnifica" hidden="false" id="c9b6-0968-4acb-0db0">
-              <profiles>
-                <profile name="Vexilla Magnifica" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="6e28-70b9-4180-613d">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
-                    <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Your opponent must subtract 1 from hit rolls in the Shooting phase for attacks that target ADEPTUS CUSTODES units within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43c6-f72f-21be-8b04" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a410-56a6-5ee7-c96e" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Custodes Vexilla" hidden="false" id="267a-d238-20f7-cbb6">
-          <profiles>
-            <profile name="Custodes Vexilla" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="bd07-43d0-0b65-82f2">
-              <characteristics>
-                <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Vexilla allow Units to remove Statuses in the Start Phase.&quot;</characteristic>
-                <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a friendly Loyalist Unit can draw Line of Sight to the Vexilus Praetor, then during the Start Phase of their turn as the Active Player, the Controlling Player may make a Check to remove a single Tactical Status from all Models in a Unit that can draw line of sight to the Vexilus Praetor. A Vexilus Praetor can only be chosen for this ability once per Turn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0223-559d-37b8-0324" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="232c-4e4c-ba56-745f" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <categoryLinks>
         <categoryLink targetId="59ce-22c6-9dcc-66a0" id="3237-5804-c04d-89ee" primary="true" name="Command"/>
         <categoryLink targetId="004b-f7b9-8d86-ecf0" id="36c8-386b-6e8d-0d7c" primary="false" name="Infantry Model Type"/>
@@ -3217,7 +3120,7 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
-            <characteristic name="A" typeId="a356-7e7a-c37d-b824">-1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">-2</characteristic>
             <characteristic name="S" typeId="33a1-3481-5543-fce1">+5</characteristic>
             <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">2</characteristic>
             <characteristic name="D" typeId="3802-23d3-f9b9-863b">3</characteristic>
@@ -3822,6 +3725,20 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
         <infoLink name="Shred" id="158b-ba02-f31e-9d5e" hidden="false" type="rule" targetId="7620-0487-d661-fff2"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Custodes Vexilla" hidden="false" id="2e4c-5577-6ab0-3bee">
+      <profiles>
+        <profile name="Custodes Vexilla" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="cc7a-3330-4ca2-bfb8">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Vexilla allow Units to remove Statuses in the Start Phase.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a friendly Loyalist Unit can draw Line of Sight to the Vexilus Praetor, then during the Start Phase of their turn as the Active Player, the Controlling Player may make a Check to remove a single Tactical Status from all Models in the Unit that can draw line of sight to the Vexilus Praetor. A Vexilus Praetor can only be chosen for this ability once per Turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8021-f664-b7dc-5c42" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce3f-933b-8f09-962d" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="14e8-0858-501d-3db5" targetId="a2f9-617e-a8d9-a2a6"/>
@@ -4196,5 +4113,48 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Vexilla" id="a482-afe4-081c-d89f" hidden="false" defaultSelectionEntryId="80ee-0e53-e59e-8361">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vexilla Imperius" hidden="false" id="1cf1-dbeb-4dd0-34cf">
+          <profiles>
+            <profile name="Vexilla Imperius" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="85b5-9daf-e0a9-577f">
+              <characteristics>
+                <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
+                <characteristic name="Description" typeId="516b-bc6f-e52f-aced">IMPERIUM INFANTRY units have a 5+ invulnerable save against ranged weapons whilst they are wholly within 9&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vexilla Defensor" hidden="false" id="efbf-0ce3-a0c6-9b63">
+          <profiles>
+            <profile name="Vexilla Defensor" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="3451-1568-a346-c893">
+              <characteristics>
+                <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
+                <characteristic name="Description" typeId="516b-bc6f-e52f-aced">ADEPTUS CUSTODES models (other than VEHICLES) add 1 to their Attacks characteristic whilst their unit is within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vexilla Magnifica" hidden="false" id="80ee-0e53-e59e-8361">
+          <profiles>
+            <profile name="Vexilla Magnifica" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="2567-d54c-7286-d8cd">
+              <characteristics>
+                <characteristic name="Summary" typeId="fdcc-276a-cadb-7810"/>
+                <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Your opponent must subtract 1 from hit rolls in the Shooting phase for attacks that target ADEPTUS CUSTODES units within 6&quot; of any friendly VEXILUS PRAETORS with this vexilla.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f17-7d69-3dfa-4fc7" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae71-6b1a-138e-a697" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Gravitic Backwash" id="dd27-1341-0fd5-4f8f" hidden="false">
+      <description>If any unit with this ability is chosen as the target of a charge by a unit without the Anti-grav type, subtract 2 from the charge roll.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

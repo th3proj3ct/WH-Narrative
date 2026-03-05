@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d792-6578-20d7-7c56" name="Imperium - Adepta Sororitas" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d792-6578-20d7-7c56" name="Imperium - Adepta Sororitas" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Simulacrum Imperialis" hidden="false" id="4ba3-70a1-f3e8-0589" sortIndex="99">
       <profiles>
@@ -314,6 +314,10 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5484-a3d3-1ae9-53a5" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f48-73eb-087a-8b26" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Melee Weapons" id="e9ca-7aa6-4588-cfaa" hidden="false" defaultSelectionEntryId="061e-e17d-92b9-43fe">
       <entryLinks>
@@ -1103,6 +1107,14 @@
         <categoryLink targetId="026e-adc5-8a2e-1438" id="4124-128f-d278-1c94" primary="true" name="Troops"/>
         <categoryLink targetId="7674-ce56-90e9-6f50" id="ab30-71a5-b0cc-10b8" primary="false" name="Order"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Line (X)" id="be04-32d4-49ef-246b" hidden="false" type="rule" targetId="6082-10a1-7474-e0cb">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Line (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Celestian Insidiants" hidden="false" id="e86c-bc8a-bd82-df73" sortIndex="20">
       <costs>
@@ -1193,7 +1205,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="9 Insidiants" id="98c0-1663-8ead-e42c" hidden="false" defaultSelectionEntryId="b1ce-9142-805b-7678">
+        <selectionEntryGroup name="9 Insidiants" id="98c0-1663-8ead-e42c" hidden="false" defaultSelectionEntryId="c2f7-b1c4-c631-4038">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Insidiant" hidden="false" id="c2f7-b1c4-c631-4038" sortIndex="1">
               <entryLinks>
@@ -1884,7 +1896,7 @@
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="9"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Retributor" id="b340-450b-6623-5e10" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Retributor" id="b340-450b-6623-5e10" hidden="false" sortIndex="2" defaultSelectionEntryId="462d-44d0-a27f-6299">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Retributor " hidden="false" id="462d-44d0-a27f-6299" sortIndex="1">
               <costs>
@@ -2641,7 +2653,7 @@
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Dominion" id="9e1e-cc24-0e80-2ae3" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Dominion" id="9e1e-cc24-0e80-2ae3" hidden="false" sortIndex="2" defaultSelectionEntryId="490d-5750-4bb7-90b1">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Dominion" hidden="false" id="490d-5750-4bb7-90b1" sortIndex="1">
               <costs>
@@ -2834,6 +2846,10 @@
                   <infoLinks>
                     <infoLink name="Shred" id="9b56-6d8e-561f-fd82" hidden="false" type="rule" targetId="7620-0487-d661-fff2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="299b-07ac-b067-7ec0" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e0-d421-6f98-7c8f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2860,7 +2876,11 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f89-2cdf-7102-e452" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Sister Superior" id="0126-4408-0089-f70f" hidden="false" type="profile" targetId="d852-8bae-9528-3498"/>
+            <infoLink name="Sister Superior" id="0126-4408-0089-f70f" hidden="false" type="profile" targetId="d852-8bae-9528-3498">
+              <modifiers>
+                <modifier type="set" value="Repentia Superior" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Neural whips" hidden="false" id="b253-ebdc-0a53-09b7">
@@ -2897,9 +2917,9 @@
             </rule>
           </rules>
           <categoryLinks>
-            <categoryLink targetId="004b-f7b9-8d86-ecf0" id="9d10-4600-8bea-2dbf" primary="false" name="Infantry Model Type"/>
-            <categoryLink targetId="523b-b451-d404-6b7c" id="e41c-9bd4-8b2c-a741" primary="false" name="Sergeant Model Sub-Type"/>
-            <categoryLink targetId="7674-ce56-90e9-6f50" id="72c5-d3a1-9fd6-5cca" primary="false" name="Order"/>
+            <categoryLink name="Infantry Model Type" hidden="false" id="9d10-4600-8bea-2dbf" targetId="004b-f7b9-8d86-ecf0" primary="false"/>
+            <categoryLink name="Sergeant Model Sub-Type" hidden="false" id="e41c-9bd4-8b2c-a741" targetId="523b-b451-d404-6b7c" primary="false"/>
+            <categoryLink name="Order" hidden="false" id="72c5-d3a1-9fd6-5cca" targetId="7674-ce56-90e9-6f50" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2980,6 +3000,9 @@
               <costs>
                 <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="5"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc03-a42f-5321-4a11" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -3058,12 +3081,12 @@
                 <categoryLink targetId="004b-f7b9-8d86-ecf0" id="b981-fae7-c779-6f7e" primary="false" name="Infantry Model Type"/>
                 <categoryLink targetId="dc1e-9850-77b6-3671" id="bffe-1b9b-493b-3d0b" primary="false" name="Antigrav Model Sub-Type"/>
               </categoryLinks>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="13be-e932-5690-46b4" includeChildSelections="false"/>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c09d-1473-b1b9-fb2d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="13be-e932-5690-46b4" includeChildSelections="false"/>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c09d-1473-b1b9-fb2d" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -3160,7 +3183,7 @@
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Seraphim" id="dee1-e097-1f97-2ce2" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Seraphim" id="dee1-e097-1f97-2ce2" hidden="false" sortIndex="2" defaultSelectionEntryId="701c-b630-bfe5-55bc">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Seraphim" hidden="false" id="701c-b630-bfe5-55bc">
               <profiles>
@@ -3226,7 +3249,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Special Weapon" id="1a85-c259-fcc1-4d5d" hidden="false">
+                <selectionEntryGroup name="Special Weapon" id="1a85-c259-fcc1-4d5d" hidden="false" defaultSelectionEntryId="ece9-c79f-a712-4810">
                   <entryLinks>
                     <entryLink import="true" name="Inferno Pistol" hidden="false" id="ab6e-8595-542e-d084" type="selectionEntry" targetId="666a-c5a9-1fec-5904">
                       <modifiers>
@@ -3245,6 +3268,10 @@
                       </costs>
                     </entryLink>
                   </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d18-5456-2088-b141" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd8b-23e2-40db-fbdb" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
@@ -3363,7 +3390,7 @@
         <categoryLink targetId="98b2-e8e7-c207-07ff" id="7a58-5f0f-3ccd-a7df" primary="false" name="Transport Model Sub-Type"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Castigator Squadron" hidden="false" id="e961-84da-9497-b7d1">
+    <selectionEntry type="upgrade" import="true" name="Castigator Squadron" hidden="false" id="e961-84da-9497-b7d1" sortIndex="35">
       <entryLinks>
         <entryLink import="true" name="Castigator" hidden="false" id="81a8-70f7-bf4a-b85b" type="selectionEntry" targetId="f08a-fd55-5538-9e06">
           <constraints>
@@ -3375,6 +3402,9 @@
       <categoryLinks>
         <categoryLink targetId="a088-84e9-3af7-8255" id="008e-15d7-9d5a-52e4" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Saint Celestine" hidden="false" id="cbcb-e0c7-7768-c568" sortIndex="9">
       <costs>
@@ -3449,6 +3479,10 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02d5-be8f-3bc6-1e17" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7973-cfd5-8cc0-eeff" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <infoLinks>
@@ -3462,6 +3496,10 @@
           <rules>
             <rule name="Miraculous Intervention" id="77d0-fba9-7205-ba4d" hidden="false"/>
           </rules>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1358-a917-f5a1-bf5a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bba-0d67-de3b-bad1" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Geminae Superia" hidden="false" id="2a3f-6e5a-785f-cb37">
           <profiles>
