@@ -3503,8 +3503,91 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Force sword" hidden="false" id="c815-f7d9-1e69-3f4a">
+      <profiles>
+        <profile name="Force sword" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="ae6e-10dd-5096-22b7">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">I</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">A</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+1</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Force (D)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Psychic</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Force (X)" id="0a63-96d5-1866-4890" hidden="false" type="rule" targetId="9fa3-e054-ebc3-cbe9">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Force (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Force maul" hidden="false" id="acd1-718a-d4ba-3041">
+      <profiles>
+        <profile name="Force maul" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="d655-2402-9656-f8d4">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">A</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+3</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Force (D)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Psychic</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Force (X)" id="194d-5223-a236-12bf" hidden="false" type="rule" targetId="9fa3-e054-ebc3-cbe9">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Force (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Force staff" hidden="false" id="ad88-c263-8d22-23b6">
+      <profiles>
+        <profile name="Force staff" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="e995-bef1-a594-ebf6">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-1</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">A</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+2</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">4</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Force (D)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Psychic</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Force (X)" id="7ff4-7ed1-e17b-ed4a" hidden="false" type="rule" targetId="9fa3-e054-ebc3-cbe9">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Force (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>
   </catalogueLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Force Weapon" id="9658-eebd-d988-a03f" hidden="false" defaultSelectionEntryId="4ad4-8ba2-0ef1-67f5">
+      <entryLinks>
+        <entryLink import="true" name="Force axe" hidden="false" id="b07e-7b85-9b7c-6d13" type="selectionEntry" targetId="b4a2-3a20-4abc-0bd5"/>
+        <entryLink import="true" name="Force maul" hidden="false" id="862b-791a-577f-9784" type="selectionEntry" targetId="acd1-718a-d4ba-3041"/>
+        <entryLink import="true" name="Force staff" hidden="false" id="4ad4-8ba2-0ef1-67f5" type="selectionEntry" targetId="ad88-c263-8d22-23b6"/>
+        <entryLink import="true" name="Force sword" hidden="false" id="0edd-662d-5b80-54a6" type="selectionEntry" targetId="c815-f7d9-1e69-3f4a"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b4b-ede8-3c2a-dba5" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6322-487f-7e56-73ee" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>

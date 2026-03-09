@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Warhammer 40,000 Narrative" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Horus Heresy 2.5 Edition" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Command" id="59ce-22c6-9dcc-66a0" hidden="false"/>
     <categoryEntry name="Troops" id="026e-adc5-8a2e-1438" hidden="false"/>
