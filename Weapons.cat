@@ -3572,6 +3572,29 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Solarite Power Gauntlet" hidden="false" id="e284-8c73-f5c8-d5b6">
+      <profiles>
+        <profile name="Solarite Power Gauntlet" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="b3a0-6a8b-6c13-84ac">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">+4</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">2</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">2</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Critical Hit (X)" id="dba3-8f99-c9b7-d366" hidden="false" type="rule" targetId="57e4-1ff4-c160-0466">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Critical Hit (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>

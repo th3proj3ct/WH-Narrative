@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="3ca8-a860-f80c-4eea" name="Psychic" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType name="Psychic Ranged Weapon" id="32fd-5cc9-6bd4-aadf" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="R" id="2b15-ca43-8eb8-7fa7"/>
+        <characteristicType name="FP" id="2b24-1587-dfd1-36ae"/>
+        <characteristicType name="RS" id="2a18-c220-27bd-3f44"/>
+        <characteristicType name="AP" id="d98b-aa7a-adbc-0ddc"/>
+        <characteristicType name="D" id="0936-8dbc-8733-6a03"/>
+        <characteristicType name="Special Rules" id="462f-8459-6f44-0bd5"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psychic Melee Weapon" id="54eb-162f-a429-0077" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="IM" id="8a6d-d3cb-5424-e22c"/>
+        <characteristicType name="AM" id="2cce-15d8-cb2f-4558"/>
+        <characteristicType name="SM" id="599f-8099-f356-df5e"/>
+        <characteristicType name="AP" id="79c2-5adc-7732-5ab0"/>
+        <characteristicType name="D" id="6054-fec2-9463-fdd3"/>
+        <characteristicType name="Special Rules" id="82fd-fc63-3a77-55bc"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psychic Reaction" id="915d-f0d9-f8bc-757a" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Summary" id="1ce7-2504-85e7-02dc"/>
+        <characteristicType name="Trigger" id="0a94-dd23-6e32-2b1b"/>
+        <characteristicType name="Target" id="ca36-7d09-3e09-894b"/>
+        <characteristicType name="Effect" id="e694-20ce-569a-42df"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psychic Power" id="2419-f21d-c5b6-4c0e" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Summary" id="d5d9-2b47-769c-0ab9"/>
+        <characteristicType name="Phase" id="dfad-1a80-d7a3-b97d"/>
+        <characteristicType name="Target" id="223f-5d11-179d-da08"/>
+        <characteristicType name="Effect" id="4d52-090c-e43b-9c4c"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Librarius Discipline" id="74d0-69d5-c119-a0ca" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Veil of Time" hidden="false" id="6c44-f72e-b812-38d6">
+          <profiles>
+            <profile name="Veil of Time" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="53a5-45f7-c9b8-18c0">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One friendly Adeptus Astartes unit within 18&quot;</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the end of the turn, you can re-roll charge rolls made for that unit, and add 1 to the Initiative characteristic of models in that unit.</characteristic>
+                <characteristic name="Difficulty" typeId="0a8f-2803-6463-22f8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ad4-cee8-aaf8-52f8" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Might of Heroes" hidden="false" id="37d8-a893-b375-eaf9">
+          <profiles>
+            <profile name="Might of Heroes" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="d888-3a33-ce31-6b65">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One friendly Adeptus Astartes Infantry Character model within 12&quot;</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, that model gains a bonus of +2 to their Strength and Toughness Characteristics</characteristic>
+                <characteristic name="Difficulty" typeId="0a8f-2803-6463-22f8"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64d2-c282-73ec-7108" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Null Zone" hidden="false" id="3a18-f85e-ac0f-11bf">
+          <profiles>
+            <profile name="Null Zone" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="deb4-75f0-0297-36e5">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">Self</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, while a unit is within 6&quot; of this psyker, invulnerable saving throws cannot be made against that attack</characteristic>
+                <characteristic name="Difficulty" typeId="0a8f-2803-6463-22f8">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f307-d2d6-6351-9b30" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psychic Scourge" hidden="false" id="e167-3642-b190-11aa">
+          <profiles>
+            <profile name="Psychic Scourge" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="9ae8-356c-e73c-4318">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Shooting Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One enemy unit within 18&quot; and visible to this Psyker</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Roll a D6 and add it to this model&apos;s Willpower. Your opponent then rolls a D6 and adds it to that unit&apos;s Willpower. If your result is higher than your opponent&apos;s, the selected unit suffers D3 S8 AP2 D1 hits.</characteristic>
+                <characteristic name="Difficulty" typeId="0a8f-2803-6463-22f8">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20a8-1a6b-9495-41cb" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fury of the Ancients" hidden="false" id="57e4-bf3a-e96d-bc62">
+          <profiles>
+            <profile name="Fury of the Ancients" typeId="32fd-5cc9-6bd4-aadf" typeName="Psychic Ranged Weapon" hidden="false" id="38b9-6f9f-7cde-7e86">
+              <characteristics>
+                <characteristic name="R" typeId="2b15-ca43-8eb8-7fa7">Template</characteristic>
+                <characteristic name="FP" typeId="2b24-1587-dfd1-36ae">1</characteristic>
+                <characteristic name="RS" typeId="2a18-c220-27bd-3f44">4</characteristic>
+                <characteristic name="AP" typeId="d98b-aa7a-adbc-0ddc">4</characteristic>
+                <characteristic name="D" typeId="0936-8dbc-8733-6a03">1</characteristic>
+                <characteristic name="Special Rules" typeId="462f-8459-6f44-0bd5">Panic (1), Template, Force (RS)</characteristic>
+                <characteristic name="Traits" typeId="ca2c-9a94-35a2-3b73">Ranged, Psychic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04c0-b37c-0823-cedc" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psychic Fortress" hidden="false" id="cb88-eaeb-40ee-3a28">
+          <profiles>
+            <profile name="Psychic Fortress" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="ec1d-7746-fb30-374b">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">Self</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Psychic Fortress" typeId="915d-f0d9-f8bc-757a" typeName="Psychic Reaction" hidden="false" id="e714-5bb3-4298-7116">
+              <characteristics>
+                <characteristic name="Summary" typeId="1ce7-2504-85e7-02dc"/>
+                <characteristic name="Trigger" typeId="0a94-dd23-6e32-2b1b">This unit is selected as the target of a ranged attack</characteristic>
+                <characteristic name="Target" typeId="ca36-7d09-3e09-894b">Self</characteristic>
+                <characteristic name="Effect" typeId="e694-20ce-569a-42df">Until the end of the phase, models in this unit gain a 5+ Shrouded Damage Mitigation Test against any wounds inflicted during a Volley or Shooting Attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1bb-eff4-555d-db06" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Contagion Discipline" id="51c1-35cf-7fe3-6feb" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Miasma of Pestilence" hidden="false" id="ce07-a75a-3cb3-e76a">
+          <profiles>
+            <profile name="Miasma of Pestilence" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="2240-13f7-37bb-5f12">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">Friendly unit within 18&quot; of this Psyker.</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, all Models in the Target Unit gain a 5+ Shrouded Damage Mitigation Test against any wounds inflicted during a Shooting Attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d72-5a64-8885-b0cf" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift of Contagion" hidden="false" id="8523-95d6-0094-e68d">
+          <profiles>
+            <profile name="Gift of Contagion" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="efa5-c812-8f76-7c1a">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One enemy unit within 18&quot; of this Psyker</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, subtract 1 from the Strength and Toughness characteristic of models in that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2491-ba1a-3f47-3ece" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Plague Wind" hidden="false" id="8d1c-6fb3-6b37-4f68">
+          <profiles>
+            <profile name="Plague Wind" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="420d-90a3-ca37-08d3">
+              <characteristics>
+                <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
+                <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+                <characteristic name="S" typeId="591a-4268-a46f-9af6">3</characteristic>
+                <characteristic name="AP" typeId="e137-b19a-087a-f2e7">-</characteristic>
+                <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+                <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (5&quot;), Force (S), Stun (-)</characteristic>
+                <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Stun (X)" id="4abb-215d-857d-43a2" hidden="false" type="rule" targetId="ecdc-32b7-f991-3547">
+              <modifiers>
+                <modifier type="set" value="Stun (-)" field="name"/>
+              </modifiers>
+              <comment>-</comment>
+            </infoLink>
+            <infoLink name="Force (X)" id="9c3e-2a39-e64c-153e" hidden="false" type="rule" targetId="9fa3-e054-ebc3-cbe9">
+              <modifiers>
+                <modifier type="set" value="Force (S)" field="name"/>
+              </modifiers>
+              <comment>S</comment>
+            </infoLink>
+            <infoLink name="Blast (X)" id="0184-d9b5-57fe-9804" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+              <modifiers>
+                <modifier type="set" value="Blast (5&quot;)" field="name"/>
+              </modifiers>
+              <comment>5&quot;</comment>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb09-7b70-2fca-e914" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Putrescent Vitality" hidden="false" id="3724-91e5-df26-0173">
+          <profiles>
+            <profile name="Putrescent Vitality" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="ae10-b023-302d-8223">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One friendly Death Guard Infantry unit within 18&quot; of this Psyker</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, add 1 to the Strength and Toughness characteristic of models in that unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a465-c2c4-36fd-8ad5" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Curse of the Leper" hidden="false" id="25f4-c12a-b104-775f">
+          <profiles>
+            <profile name="Curse of the Leper" typeId="32fd-5cc9-6bd4-aadf" typeName="Psychic Ranged Weapon" hidden="false" id="db5f-6686-6793-466a">
+              <characteristics>
+                <characteristic name="R" typeId="2b15-ca43-8eb8-7fa7">18</characteristic>
+                <characteristic name="FP" typeId="2b24-1587-dfd1-36ae">2D6</characteristic>
+                <characteristic name="RS" typeId="2a18-c220-27bd-3f44">3</characteristic>
+                <characteristic name="AP" typeId="d98b-aa7a-adbc-0ddc">-</characteristic>
+                <characteristic name="D" typeId="0936-8dbc-8733-6a03">1</characteristic>
+                <characteristic name="Special Rules" typeId="462f-8459-6f44-0bd5">Phage (T)</characteristic>
+                <characteristic name="Traits" typeId="ca2c-9a94-35a2-3b73">Ranged, Psychic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Phage (X)" id="0358-d07d-c7b6-eb6e" hidden="false" type="rule" targetId="bb4f-3f6d-880f-c7c1">
+              <modifiers>
+                <modifier type="set" value="Phage (T)" field="name"/>
+              </modifiers>
+              <comment>T</comment>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2d8-4c89-306c-a322" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift of Plagues" hidden="false" id="4f6e-ab0c-50e4-fc62">
+          <profiles>
+            <profile name="Gift of Plagues" typeId="2419-f21d-c5b6-4c0e" typeName="Psychic Power" hidden="false" id="8451-ad7d-3e43-b3b4">
+              <characteristics>
+                <characteristic name="Summary" typeId="d5d9-2b47-769c-0ab9"/>
+                <characteristic name="Phase" typeId="dfad-1a80-d7a3-b97d">Movement Phase</characteristic>
+                <characteristic name="Target" typeId="223f-5d11-179d-da08">One Death Guard unit within 18&quot;</characteristic>
+                <characteristic name="Effect" typeId="4d52-090c-e43b-9c4c">Until the start of your next turn, while an enemy unit is within 6&quot; of the target unit, reduce the Toughness Characteristic of models in that unit by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b3e-7418-904d-7940" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Special Rules" id="a8fb-cc0d-be97-0475" targetId="a2f9-617e-a8d9-a2a6"/>
+  </catalogueLinks>
+</catalogue>

@@ -39,23 +39,6 @@
           </selectionEntryGroups>
           <profiles>
             <profile name="Custodian Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="d4ac-8b5a-6c5f-0eb3">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">2</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">6+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -125,17 +108,6 @@
         <selectionEntry type="upgrade" import="true" name="Pallas Grav-Attack" hidden="false" id="8a3d-063c-952e-e241">
           <profiles>
             <profile name="Pallas Grav-Attack" typeId="bef6-befe-b729-c2db" typeName="Vehicle" hidden="false" id="b15a-7e97-1735-24f5">
-              <attributes>
-                <attribute name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Rapid)</attribute>
-                <attribute name="M" typeId="e16d-5e4d-b689-54ee">16</attribute>
-                <attribute name="BS" typeId="5c14-5c7d-d525-1c7d">5</attribute>
-                <attribute name="Front Armour" typeId="b107-5398-ba70-264e">12</attribute>
-                <attribute name="Side Armour" typeId="c2e5-e62c-4ac0-28a1">11</attribute>
-                <attribute name="Rear Armour" typeId="78a9-c3a8-d1c3-c6f8">11</attribute>
-                <attribute name="HP" typeId="b123-d331-1d6f-8c5a">4</attribute>
-                <attribute name="Transport Capacity" typeId="d100-b938-fd3e-f054">-</attribute>
-                <attribute name="Access Points" typeId="9a8b-7ab0-4781-f034">-</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Rapid)</characteristic>
                 <characteristic name="M" typeId="e16d-5e4d-b689-54ee">16</characteristic>
@@ -169,15 +141,6 @@
             <selectionEntry type="upgrade" import="true" name="Twin Arachnus Blaze Cannon" hidden="false" id="c0ea-4e3e-a00f-5868">
               <profiles>
                 <profile name="Twin Arachnus Blaze Cannon - Beam" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6719-9270-c7b8-36a3">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">9</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D), Armourbane</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -189,15 +152,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Twin Arachnus Blaze Cannon - Burst" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="f452-4f42-c584-a5c1">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">5</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Sustained Hits 1</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">5</characteristic>
@@ -255,23 +209,6 @@
           </selectionEntryGroups>
           <profiles>
             <profile name="Custodian Warden" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="c317-ff40-f242-f2c6">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">2</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">6+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -364,23 +301,6 @@
           </selectionEntryGroups>
           <profiles>
             <profile name="Allarus Terminator" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="2685-54e3-86dd-05db">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">6</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">3</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -472,15 +392,6 @@
                     <selectionEntry type="upgrade" import="true" name="Tarsus Buckler" hidden="false" id="8c30-94b7-9e7a-543a">
                       <profiles>
                         <profile name="Tarsus Buckler" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="4680-7b74-d744-c697">
-                          <attributes>
-                            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                            <attribute name="S" typeId="33a1-3481-5543-fce1">+1</attribute>
-                            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">4</attribute>
-                            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-                            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">-</attribute>
-                            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12"/>
-                          </attributes>
                           <characteristics>
                             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -505,15 +416,6 @@
                     <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer" hidden="false" id="ed1f-8efb-38ac-bcce">
                       <profiles>
                         <profile name="Kinetic Destroyer" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="c460-26fc-8eea-c95d">
-                          <attributes>
-                            <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-                            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">3</attribute>
-                            <attribute name="S" typeId="591a-4268-a46f-9af6">7</attribute>
-                            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (5+), Pistol</attribute>
-                            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault</attribute>
-                          </attributes>
                           <characteristics>
                             <characteristic name="R" typeId="c686-829c-aef5-ccf2">12</characteristic>
                             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
@@ -553,23 +455,6 @@
           </selectionEntryGroups>
           <profiles>
             <profile name="Venatari" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="3332-00d3-5ede-caa4">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Light, Antigrav, Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">14</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">2</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">3+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">6+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Antigrav, Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">14</characteristic>
@@ -641,23 +526,6 @@
         <selectionEntry type="upgrade" import="true" name="Sagittarum Guard" hidden="false" id="3388-11a4-1611-0bdf">
           <profiles>
             <profile name="Sagittarum Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="f00d-229a-1af2-d337">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">2</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">6+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -702,15 +570,6 @@
             <selectionEntry type="upgrade" import="true" name="Adrastus Bolt Caliver" hidden="false" id="b859-736e-10d9-13cb">
               <profiles>
                 <profile name="Adrastus Bolt Caliver - Bolt volley (Primary)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="9707-9f8f-3b7e-202c">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">3</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+), Heavy (FP), Combi</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Bolt</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
@@ -722,15 +581,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Adrastus Bolt Caliver -  Adrathic beam (Secondary)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="983d-8fee-2e38-c205">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rending (6+), Limited (1), Combi</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Disintegrator</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -811,15 +661,6 @@
                 <selectionEntry type="upgrade" import="true" name="Infernus Firepike" hidden="false" id="b239-3ebf-9df5-499a">
                   <profiles>
                     <profile name="Infernus Firepike" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="a575-c72a-d0e5-34b8">
-                      <attributes>
-                        <attribute name="R" typeId="c686-829c-aef5-ccf2">Template</attribute>
-                        <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                        <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                        <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                        <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                        <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Template, Panic (2)</attribute>
-                        <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Flame</attribute>
-                      </attributes>
                       <characteristics>
                         <characteristic name="R" typeId="c686-829c-aef5-ccf2">Template</characteristic>
                         <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -864,23 +705,6 @@
           </selectionEntryGroups>
           <profiles>
             <profile name="Aquilon Terminator" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="770d-5e00-ca4b-5f27">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Heavy, Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">7</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">6</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">3</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Heavy, Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
@@ -953,23 +777,6 @@
         <selectionEntry type="upgrade" import="true" name="Custodian Guard" hidden="false" id="e07b-1715-bd83-8bc0">
           <profiles>
             <profile name="Custodian Guard" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="9c48-f287-aad4-8d43">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">2</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">5+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Skirmish)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -1049,17 +856,6 @@
     <selectionEntry type="upgrade" import="true" name="Coronus Grav-Carrier" hidden="false" id="7c2f-a234-c788-d7c7">
       <profiles>
         <profile name="Coronus Grav-Carrier" typeId="bef6-befe-b729-c2db" typeName="Vehicle" hidden="false" id="d670-5b06-5ed9-cb4f">
-          <attributes>
-            <attribute name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Transport)</attribute>
-            <attribute name="M" typeId="e16d-5e4d-b689-54ee">14</attribute>
-            <attribute name="BS" typeId="5c14-5c7d-d525-1c7d">5</attribute>
-            <attribute name="Front Armour" typeId="b107-5398-ba70-264e">13</attribute>
-            <attribute name="Side Armour" typeId="c2e5-e62c-4ac0-28a1">13</attribute>
-            <attribute name="Rear Armour" typeId="78a9-c3a8-d1c3-c6f8">11</attribute>
-            <attribute name="HP" typeId="b123-d331-1d6f-8c5a">8</attribute>
-            <attribute name="Transport Capacity" typeId="d100-b938-fd3e-f054">12</attribute>
-            <attribute name="Access Points" typeId="9a8b-7ab0-4781-f034">Rear</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Transport)</characteristic>
             <characteristic name="M" typeId="e16d-5e4d-b689-54ee">12</characteristic>
@@ -1094,15 +890,6 @@
         <selectionEntry type="upgrade" import="true" name="Twin Arachnus Blaze Cannon" hidden="false" id="ca51-13e5-5181-2fc1">
           <profiles>
             <profile name="Twin Arachnus Blaze Cannon - Burst" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="b4b1-8ee1-c2c8-dda4">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">5</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (FP)</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">5</characteristic>
@@ -1114,15 +901,6 @@
               </characteristics>
             </profile>
             <profile name="Twin Arachnus Blaze Cannon - Beam" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="2bbb-a625-ecb1-abaa">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">48</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">9</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D), Armourbane</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -1181,17 +959,6 @@
     <selectionEntry type="upgrade" import="true" name="Caladius Grav-Tank" hidden="false" id="c42e-5f54-adf7-9c24">
       <profiles>
         <profile name="Caladius Grav-Tank" typeId="bef6-befe-b729-c2db" typeName="Vehicle" hidden="false" id="c03e-8d85-96e7-d420">
-          <attributes>
-            <attribute name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Rapid)</attribute>
-            <attribute name="M" typeId="e16d-5e4d-b689-54ee">14</attribute>
-            <attribute name="BS" typeId="5c14-5c7d-d525-1c7d">5</attribute>
-            <attribute name="Front Armour" typeId="b107-5398-ba70-264e">13</attribute>
-            <attribute name="Side Armour" typeId="c2e5-e62c-4ac0-28a1">13</attribute>
-            <attribute name="Rear Armour" typeId="78a9-c3a8-d1c3-c6f8">11</attribute>
-            <attribute name="HP" typeId="b123-d331-1d6f-8c5a">7</attribute>
-            <attribute name="Transport Capacity" typeId="d100-b938-fd3e-f054">-</attribute>
-            <attribute name="Access Points" typeId="9a8b-7ab0-4781-f034">-</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="Type" typeId="3646-a1e5-48f3-39ea">Vehicle (Antigrav, Rapid)</characteristic>
             <characteristic name="M" typeId="e16d-5e4d-b689-54ee">14</characteristic>
@@ -1228,15 +995,6 @@
             <selectionEntry type="upgrade" import="true" name="Twin Iliastus Accelerator Cannon" hidden="false" id="5040-0063-79a4-df34">
               <profiles>
                 <profile name="Twin Iliastus Accelerator Cannon" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="b0e0-7339-dbbc-99be">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">60</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">8</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">8</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Auto</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">60</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">8</characteristic>
@@ -1261,15 +1019,6 @@
             <selectionEntry type="upgrade" import="true" name="Twin Arachnus Blaze Carronade" hidden="false" id="36b3-5e42-91ce-ea6d">
               <profiles>
                 <profile name="Twin Arachnus Blaze Carronade - Burst" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="3e01-b84e-6f0d-4a9e">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">48</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">6</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">7</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (FP)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">5</characteristic>
@@ -1281,15 +1030,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Twin Arachnus Blaze Carronade - Beam" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="a46d-6a1a-d519-2e49">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">72</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">10</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Ordnance (D), Armourbane</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">72</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -1354,23 +1094,6 @@
         <selectionEntry type="upgrade" import="true" name="Contemptor-Achillus Dreadnought" hidden="false" id="eb27-82bb-2893-24e4">
           <profiles>
             <profile name="Contemptor-Achillus Dreadnought" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="05e6-2501-579b-65fd">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Walker</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">7</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">7</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">6</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">4</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">9</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">5</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">5+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Walker</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -1432,15 +1155,6 @@
                 <selectionEntry type="upgrade" import="true" name="Infernus Incinerator" hidden="false" id="33ee-ed38-1915-71ea">
                   <profiles>
                     <profile name="Infernus Incinerator" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="70aa-f7a8-848a-1a90">
-                      <attributes>
-                        <attribute name="R" typeId="c686-829c-aef5-ccf2">Template</attribute>
-                        <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                        <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                        <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                        <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                        <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Template, Panic (2)</attribute>
-                        <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Flame</attribute>
-                      </attributes>
                       <characteristics>
                         <characteristic name="R" typeId="c686-829c-aef5-ccf2">Template</characteristic>
                         <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -1481,15 +1195,6 @@
             <selectionEntry type="upgrade" import="true" name="Achillus Dreadspear" hidden="false" id="9478-8ef9-ef95-0688">
               <profiles>
                 <profile name="Achillus Dreadspear" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="dfd1-0b00-c38a-2d67">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">10</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Armourbane, Armour-breaker (4+)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -1501,15 +1206,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Achillus Dreadspear" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="7cd4-5ac9-6035-975c">
-                  <attributes>
-                    <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                    <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                    <attribute name="S" typeId="33a1-3481-5543-fce1">+3</attribute>
-                    <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                    <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-                    <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Armourbane, Impact (S), Reaping Blow (1), Shock (Pinned)</attribute>
-                    <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                     <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -1563,23 +1259,6 @@
         <selectionEntry type="upgrade" import="true" name="Contemptor-Galatus Dreadnought" hidden="false" id="41c8-9dc2-e538-f997">
           <profiles>
             <profile name="Contemptor-Galatus Dreadnought" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="91ac-b43d-df9f-1061">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Walker</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">7</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">7</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">6</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">4</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">9</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">5</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Walker</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -1639,15 +1318,6 @@
             <selectionEntry type="upgrade" import="true" name="Galatus Warblade" hidden="false" id="999e-5c7e-ff80-2568">
               <profiles>
                 <profile name="Galatus Warblade" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="d0e8-a9dc-b4b4-8951">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">Template</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Template, Panic (2)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Flame</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">Template</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -1659,15 +1329,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Galatus Warblade" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="807b-8a68-839f-d37a">
-                  <attributes>
-                    <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                    <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                    <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-                    <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                    <attribute name="D" typeId="3802-23d3-f9b9-863b">2</attribute>
-                    <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Aflame (2), Reaping Blow (3)</attribute>
-                    <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                     <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -1713,23 +1374,6 @@
     <selectionEntry type="upgrade" import="true" name="Telemon Heavy Dreadnought" hidden="false" id="9e14-3776-2acd-4035">
       <profiles>
         <profile name="Telemon Heavy Dreadnought" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="ad46-b1a5-8315-d24e">
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Walker (Heavy)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">6</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">8</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">8</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">8</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">3</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">3</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">9</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">3</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Walker (Heavy)</characteristic>
             <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
@@ -1756,15 +1400,6 @@
         <selectionEntry type="upgrade" import="true" name="Spiculus Missile Launcher" hidden="false" id="4dcc-3347-1d46-a2ef">
           <profiles>
             <profile name="Spiculus Missile Launcher" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="33f9-27cd-073a-fab7">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">5</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (5&quot;), Heavy (FP), Suppressive</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -1813,15 +1448,6 @@
             <selectionEntry type="upgrade" import="true" name="Paired Telemon Caestus" hidden="false" id="f14f-e975-2bba-ae7f">
               <profiles>
                 <profile name="Paired Telemon Caestus" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="951a-7631-dcf7-be45">
-                  <attributes>
-                    <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                    <attribute name="A" typeId="a356-7e7a-c37d-b824">+2</attribute>
-                    <attribute name="S" typeId="33a1-3481-5543-fce1">+4</attribute>
-                    <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                    <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-                    <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+), Shock (Pinned), Armourbane</attribute>
-                    <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                     <characteristic name="A" typeId="a356-7e7a-c37d-b824">+2</characteristic>
@@ -1918,15 +1544,6 @@
             <selectionEntry type="upgrade" import="true" name="Arachnus Storm Cannon" hidden="false" id="bf49-11b2-2252-7e1f">
               <profiles>
                 <profile name="Arachnus Storm Cannon - Beam" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="9d23-1b84-5f63-72d1">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">9</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">3</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (D), Armourbane</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -1938,15 +1555,6 @@
                   </characteristics>
                 </profile>
                 <profile name="Arachnus Storm Cannon - Burst" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="69b2-7acf-15c1-146a">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">24</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">4</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (FP)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Las</attribute>
-                  </attributes>
                   <characteristics>
                     <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
                     <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">4</characteristic>
@@ -1989,15 +1597,6 @@
                     <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+), Rapid Tracking</characteristic>
                     <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Auto</characteristic>
                   </characteristics>
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">60</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">8</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">8</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Auto</attribute>
-                  </attributes>
                 </profile>
               </profiles>
               <infoLinks>
@@ -2038,23 +1637,6 @@
     <selectionEntry type="upgrade" import="true" name="Shield Captain" hidden="false" id="6f80-2708-a4b9-cb88">
       <profiles>
         <profile name="Shield Captain" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="a794-d943-9b58-52b5">
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">4</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">10</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">10</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</characteristic>
             <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -2154,23 +1736,6 @@
         <selectionEntry type="upgrade" import="true" name="Venerable Contemptor Dreadnought" hidden="false" id="50bb-ab92-9f12-7c45">
           <profiles>
             <profile name="Venerable Contemptor Dreadnought" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="d3c2-a8d9-7032-b799">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Walker</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">7</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">7</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">6</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">4</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">9</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">5</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">5+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Walker</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -2230,15 +1795,15 @@
             <selectionEntry type="upgrade" import="true" name="Gravis Power Fist" hidden="false" id="19a2-2ae1-e243-3752">
               <profiles>
                 <profile name="Gravis Power Fist" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="9158-35f9-716c-e93d">
-                  <attributes>
-                    <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                    <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                    <attribute name="S" typeId="33a1-3481-5543-fce1">+3</attribute>
-                    <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                    <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-                    <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">-</attribute>
-                    <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-                  </attributes>
+                  <characteristics>
+                    <characteristic name="I" typeId="93cf-082c-7341-87f7"/>
+                    <characteristic name="A" typeId="a356-7e7a-c37d-b824"/>
+                    <characteristic name="S" typeId="33a1-3481-5543-fce1"/>
+                    <characteristic name="AP" typeId="a0d4-e1a3-618a-df27"/>
+                    <characteristic name="D" typeId="3802-23d3-f9b9-863b"/>
+                    <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f"/>
+                    <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12"/>
+                  </characteristics>
                 </profile>
               </profiles>
               <constraints>
@@ -2249,15 +1814,15 @@
             <selectionEntry type="upgrade" import="true" name="Gravis Melta Cannon" hidden="false" id="5dda-4b92-75ed-ac35">
               <profiles>
                 <profile name="Gravis Melta Cannon" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="63f2-b39f-831d-5c99">
-                  <attributes>
-                    <attribute name="R" typeId="c686-829c-aef5-ccf2">24</attribute>
-                    <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                    <attribute name="S" typeId="591a-4268-a46f-9af6">9</attribute>
-                    <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                    <attribute name="D" typeId="770e-2783-e159-33e6">4</attribute>
-                    <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (RS), Melta (8)</attribute>
-                    <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Melta</attribute>
-                  </attributes>
+                  <characteristics>
+                    <characteristic name="R" typeId="c686-829c-aef5-ccf2"/>
+                    <characteristic name="FP" typeId="c943-b9e0-1496-6fa7"/>
+                    <characteristic name="S" typeId="591a-4268-a46f-9af6"/>
+                    <characteristic name="AP" typeId="e137-b19a-087a-f2e7"/>
+                    <characteristic name="D" typeId="770e-2783-e159-33e6"/>
+                    <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633"/>
+                    <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1"/>
+                  </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
@@ -2311,23 +1876,6 @@
             <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
             <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">5+</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">4</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">10</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">10</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2391,23 +1939,6 @@
         <selectionEntry type="upgrade" import="true" name="Vertus Praetor" hidden="false" id="437f-c559-f9bc-d709" collective="true">
           <profiles>
             <profile name="Vertus Praetor" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="a725-5959-3015-8b98">
-              <attributes>
-                <attribute name="Type" typeId="c6d3-582c-0125-3afd">Cavalry (Antigrav)</attribute>
-                <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">16</attribute>
-                <attribute name="WS" typeId="f43d-b1a4-46cd-d291">5</attribute>
-                <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-                <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-                <attribute name="T" typeId="2303-39d8-5a6d-99b0">6</attribute>
-                <attribute name="W" typeId="5d83-b210-acf7-2361">3</attribute>
-                <attribute name="I" typeId="45f1-a353-bf92-e24d">5</attribute>
-                <attribute name="A" typeId="f152-fc99-0cad-3056">2</attribute>
-                <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-                <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-                <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">8</attribute>
-                <attribute name="IN" typeId="8855-af7b-d9c2-228f">8</attribute>
-                <attribute name="SAV" typeId="6281-53b4-2f1a-d226">3+</attribute>
-                <attribute name="INV" typeId="7fef-b0ea-c53e-129c">6+</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Cavalry (Antigrav)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">16</characteristic>
@@ -2510,23 +2041,6 @@
             <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
             <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">5+</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">4</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">10</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">10</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2589,23 +2103,6 @@
     <selectionEntry type="upgrade" import="true" name="Blade Champion" hidden="false" id="a748-654a-0059-94aa">
       <profiles>
         <profile name="Blade Champion" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="df65-e660-9f53-63c6">
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">3</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">10</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">9</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">9</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">3+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">5+</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</characteristic>
             <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">8</characteristic>
@@ -2684,15 +2181,6 @@
           </infoLinks>
           <profiles>
             <profile name="Vaultswords - Behemor" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="f91a-d019-020a-74b7">
-              <attributes>
-                <attribute name="I" typeId="93cf-082c-7341-87f7">-2</attribute>
-                <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                <attribute name="S" typeId="33a1-3481-5543-fce1">+2</attribute>
-                <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                <attribute name="D" typeId="3802-23d3-f9b9-863b">2</attribute>
-                <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+), Precision</attribute>
-                <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                 <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -2704,15 +2192,6 @@
               </characteristics>
             </profile>
             <profile name="Vaultswords - Hurricanus" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="a0a3-56a3-b991-97d6">
-              <attributes>
-                <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                <attribute name="A" typeId="a356-7e7a-c37d-b824">+2</attribute>
-                <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-                <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-                <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Sustained Hits (1)</attribute>
-                <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                 <characteristic name="A" typeId="a356-7e7a-c37d-b824">+2</characteristic>
@@ -2724,15 +2203,6 @@
               </characteristics>
             </profile>
             <profile name="Vaultswords - Victus" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="30d3-2d25-ea85-9118">
-              <attributes>
-                <attribute name="I" typeId="93cf-082c-7341-87f7">2</attribute>
-                <attribute name="A" typeId="a356-7e7a-c37d-b824">-2</attribute>
-                <attribute name="S" typeId="33a1-3481-5543-fce1">+5</attribute>
-                <attribute name="AP" typeId="a0d4-e1a3-618a-df27">4</attribute>
-                <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-                <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Armourbane, Armour-Breaker (5+)</attribute>
-                <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
                 <characteristic name="A" typeId="a356-7e7a-c37d-b824">-1</characteristic>
@@ -2783,23 +2253,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
             <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
             <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">4+</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">4</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">10</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">10</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2887,23 +2340,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
             <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
             <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">4+</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Skirmish)</attribute>
-            <attribute name="M" typeId="d2c1-69ea-7ad8-0c75">8</attribute>
-            <attribute name="WS" typeId="f43d-b1a4-46cd-d291">7</attribute>
-            <attribute name="BS" typeId="d8f7-eb33-9afe-076e">5</attribute>
-            <attribute name="S" typeId="5611-7ba3-76ab-5d2a">5</attribute>
-            <attribute name="T" typeId="2303-39d8-5a6d-99b0">5</attribute>
-            <attribute name="W" typeId="5d83-b210-acf7-2361">4</attribute>
-            <attribute name="I" typeId="45f1-a353-bf92-e24d">6</attribute>
-            <attribute name="A" typeId="f152-fc99-0cad-3056">5</attribute>
-            <attribute name="LD" typeId="563f-b333-e8af-d093">12</attribute>
-            <attribute name="CL" typeId="97d7-864a-b4d6-bfbf">10</attribute>
-            <attribute name="WP" typeId="43aa-736e-7ab9-2fdd">10</attribute>
-            <attribute name="IN" typeId="8855-af7b-d9c2-228f">10</attribute>
-            <attribute name="SAV" typeId="6281-53b4-2f1a-d226">2+</attribute>
-            <attribute name="INV" typeId="7fef-b0ea-c53e-129c">4+</attribute>
-          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2970,15 +2406,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="7873-5289-aecb-763f">
       <profiles>
         <profile name="Guardian Spear" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="4c17-377c-0a7f-1495">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+1</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (S), Reaping Blow (1)</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -2990,15 +2417,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </characteristics>
         </profile>
         <profile name="Guardian Spear" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="4b16-2223-badf-d0aa">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">4</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rapid Fire (1)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -3035,15 +2453,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Sentinel Warblade" hidden="false" id="a688-19d2-1a47-3570">
       <profiles>
         <profile name="Sentinel Warblade" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="0fa5-3488-0f7c-f975">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">12</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">3</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">4</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Pistol</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">12</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
@@ -3055,15 +2464,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </characteristics>
         </profile>
         <profile name="Sentinel Warblade" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="8a0d-1a08-dc46-d389">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">-</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3082,15 +2482,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="c657-92f3-0e2f-47be">
       <profiles>
         <profile name="Misericordia" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="4a73-c4f9-af88-aa6e">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">1</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">1</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Extra Attacks</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12"/>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">1</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">1</characteristic>
@@ -3109,15 +2500,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="04fd-2ba2-8cc7-12e4">
       <profiles>
         <profile name="Castellan Axe" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="8db7-515d-694b-e7ab">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">-2</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">-1</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+4</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">2</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Armourbane, Armour-Breaker (4+)</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">-2</characteristic>
@@ -3129,15 +2511,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </characteristics>
         </profile>
         <profile name="Castellan Axe" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="8eb9-b32f-8ee5-4efd">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">4</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rapid Fire (1), Shred</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -3169,15 +2542,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Ballistus Grenade Launcher" hidden="false" id="5823-b94e-2f95-bcc7">
       <profiles>
         <profile name="Ballistus Grenade Launcher" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="d349-2666-042a-07c9">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18&quot;</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">4</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (3&quot;), Pinning</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1"/>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -3207,15 +2571,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Solarite Power Talon" hidden="false" id="2464-cf5a-25f4-aecb">
       <profiles>
         <profile name="Solarite Power Talon" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="c185-96d0-7d37-70c5">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Rending (6+), Shred</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3240,15 +2595,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Solarite Power Gauntlet" hidden="false" id="7dda-aba7-f523-2fc0">
       <profiles>
         <profile name="Solarite Power Gauntlet" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="75f1-0e2c-b436-0444">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">-3</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">x2</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">2</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+)</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">-3</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3272,15 +2618,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Adrasite Spear" hidden="false" id="2939-48fa-6cc3-70b1">
       <profiles>
         <profile name="Adrasite Spear" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="d542-b9ec-8246-c4c4">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rending (6+)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Disintegrator</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -3292,15 +2629,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </characteristics>
         </profile>
         <profile name="Adrasite Spear" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="e6ca-3699-44d0-a97a">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+1</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (S), Reaping Blow (1)</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3340,15 +2668,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Pyrithite Spear" hidden="false" id="17ed-c3f7-a899-f11f">
       <profiles>
         <profile name="Pyrithite Spear" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="2d32-1fd4-8aa1-6aca">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">12</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">8</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">3</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Assault, Melta (6)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Melta</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">6</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -3369,15 +2688,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
             <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (S), Reaping Blow (1)</characteristic>
             <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+1</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (S), Reaping Blow (1)</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3418,15 +2728,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Twin Lastrum Bolt Cannon" hidden="false" id="11b0-362a-411f-ad88">
       <profiles>
         <profile name="Twin Lastrum Bolt Cannon" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="2b81-1acc-bf79-3878">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">36</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">6</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">6</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">-</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Bolt</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">36</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">6</characteristic>
@@ -3442,15 +2743,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Lastrum Storm Bolter" hidden="false" id="5908-95ed-febf-2d5b">
       <profiles>
         <profile name="Lastrum Storm Bolter" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="ddab-a758-6438-20f7">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">24</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">4</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Sustained Hits 1</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Bolt</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">4</characteristic>
@@ -3473,15 +2765,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Adrathic Combi-destructor" hidden="false" id="3956-04f5-a40d-7059">
       <profiles>
         <profile name="Adrathic Combi-destructor" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="65ac-f9df-f640-7bd5">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rending (6+)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Disintegrator</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -3508,15 +2791,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Proteus Plasma Projector" hidden="false" id="1d10-5083-50d3-dbff">
       <profiles>
         <profile name="Proteus Plasma Projector" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="811b-6295-f860-8744">
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">Template</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">7</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Template, Breaching (5+)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="R" typeId="c686-829c-aef5-ccf2">Template</characteristic>
             <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -3541,15 +2815,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Telemon Caestus" hidden="false" id="4497-2233-c92d-10fd">
       <profiles>
         <profile name="Telemon Caestus" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="a08c-b838-760c-8efb">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+4</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+), Shock (Pinned), Armourbane</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3578,15 +2843,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
     <selectionEntry type="upgrade" import="true" name="Solarite Power Lance" hidden="false" id="dd1c-7012-eab9-f883">
       <profiles>
         <profile name="Solarite Power Lance - Charging Strike" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="3ae3-08c6-2095-5fac">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">+4</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">0</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">+5</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">3</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (AM), Armourbane</attribute>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">+4</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">0</characteristic>
@@ -3598,15 +2854,6 @@ During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, i
           </characteristics>
         </profile>
         <profile name="Solarite Power Lance - Defensive strike" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="0c0a-659e-0a48-f5a9">
-          <attributes>
-            <attribute name="I" typeId="93cf-082c-7341-87f7">-1</attribute>
-            <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-            <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-            <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-            <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-            <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f"/>
-            <attribute name="Traits" typeId="c52d-0513-f9bf-3b12"/>
-          </attributes>
           <characteristics>
             <characteristic name="I" typeId="93cf-082c-7341-87f7">-1</characteristic>
             <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3677,15 +2924,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
             <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Armourbane</characteristic>
             <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">24&quot;</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">10</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Armourbane, Heavy (D)</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Missile</attribute>
-          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3704,15 +2942,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
             <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Rapid Fire (3), Shred</characteristic>
             <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="R" typeId="c686-829c-aef5-ccf2">18&quot;</attribute>
-            <attribute name="FP" typeId="c943-b9e0-1496-6fa7">4</attribute>
-            <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-            <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-            <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-            <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rapid Fire 4</attribute>
-            <attribute name="Traits" typeId="2dd7-8636-31c5-35a1"/>
-          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3838,15 +3067,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
         <selectionEntry type="upgrade" import="true" name="Gatekeeper" hidden="false" id="9bf1-83bd-37fb-e918">
           <profiles>
             <profile name="Gatekeeper" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="52ca-97f9-50c4-e0fc">
-              <attributes>
-                <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                <attribute name="A" typeId="a356-7e7a-c37d-b824">User</attribute>
-                <attribute name="S" typeId="33a1-3481-5543-fce1">+1</attribute>
-                <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-                <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (S), Reaping Blow (1)</attribute>
-                <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                 <characteristic name="A" typeId="a356-7e7a-c37d-b824">User</characteristic>
@@ -3858,15 +3078,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
               </characteristics>
             </profile>
             <profile name="Gatekeeper" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="9528-ed1a-5673-9443">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">2</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">5</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">3</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Rapid Fire (2), Shred</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
@@ -3922,15 +3133,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
         <selectionEntry type="upgrade" import="true" name="Obliteratum" hidden="false" id="e7d8-fcf0-d6c6-853e">
           <profiles>
             <profile name="Obliteratum" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="36bd-9852-0dbb-0aa1">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">18</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">8</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">2</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">3</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (3&quot;)</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1"/>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">18&quot;</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
@@ -3992,15 +3194,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
         <selectionEntry type="upgrade" import="true" name="Veiled Blade" hidden="false" id="e144-af51-9fb9-87b8">
           <profiles>
             <profile name="Veiled Blade" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="3ae3-cbd9-a26c-092a">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">12</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">3</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">4</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">4</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">1</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Pistol</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Bolt</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">12</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">3</characteristic>
@@ -4012,15 +3205,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
               </characteristics>
             </profile>
             <profile name="Veiled Blade" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="b9ac-407a-6193-6af2">
-              <attributes>
-                <attribute name="I" typeId="93cf-082c-7341-87f7">User</attribute>
-                <attribute name="A" typeId="a356-7e7a-c37d-b824">+2</attribute>
-                <attribute name="S" typeId="33a1-3481-5543-fce1">User</attribute>
-                <attribute name="AP" typeId="a0d4-e1a3-618a-df27">2</attribute>
-                <attribute name="D" typeId="3802-23d3-f9b9-863b">1</attribute>
-                <attribute name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Critical Hit (6+)</attribute>
-                <attribute name="Traits" typeId="c52d-0513-f9bf-3b12">Power</attribute>
-              </attributes>
               <characteristics>
                 <characteristic name="I" typeId="93cf-082c-7341-87f7">User</characteristic>
                 <characteristic name="A" typeId="a356-7e7a-c37d-b824">+2</characteristic>
@@ -4063,15 +3247,6 @@ Any Reserves Test may only be modified by a single arae-shrike in this manner.</
               </characteristics>
             </profile>
             <profile name="Wrath Angelis" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6c70-21cc-9f0d-ba67">
-              <attributes>
-                <attribute name="R" typeId="c686-829c-aef5-ccf2">-</attribute>
-                <attribute name="FP" typeId="c943-b9e0-1496-6fa7">1</attribute>
-                <attribute name="S" typeId="591a-4268-a46f-9af6">8</attribute>
-                <attribute name="AP" typeId="e137-b19a-087a-f2e7">0</attribute>
-                <attribute name="D" typeId="770e-2783-e159-33e6">2</attribute>
-                <attribute name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (5&quot;), Breaching (5+)</attribute>
-                <attribute name="Traits" typeId="2dd7-8636-31c5-35a1"/>
-              </attributes>
               <characteristics>
                 <characteristic name="R" typeId="c686-829c-aef5-ccf2">-</characteristic>
                 <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
