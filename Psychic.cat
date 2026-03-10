@@ -280,4 +280,20 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="a8fb-cc0d-be97-0475" targetId="a2f9-617e-a8d9-a2a6"/>
   </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="5cf4-b5fd-bb5c-65b0">
+      <profiles>
+        <profile name="Smite" typeId="32fd-5cc9-6bd4-aadf" typeName="Psychic Ranged Weapon" hidden="false" id="ccff-67e6-adbe-1a38">
+          <characteristics>
+            <characteristic name="R" typeId="2b15-ca43-8eb8-7fa7">18</characteristic>
+            <characteristic name="FP" typeId="2b24-1587-dfd1-36ae">1</characteristic>
+            <characteristic name="RS" typeId="2a18-c220-27bd-3f44">5</characteristic>
+            <characteristic name="AP" typeId="d98b-aa7a-adbc-0ddc">-</characteristic>
+            <characteristic name="D" typeId="0936-8dbc-8733-6a03">1</characteristic>
+            <characteristic name="Special Rules" typeId="462f-8459-6f44-0bd5">Blast (3&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>

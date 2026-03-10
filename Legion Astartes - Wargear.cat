@@ -117,7 +117,7 @@ A Model that has breacher charges selected as its Weapon always has a Combat Ini
         <profile name="Narthecium" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="3a6b-a1fa-ddec-25fe">
           <characteristics>
             <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A narthecium allows Recovery Tests to be made in the Morale Sub-Phase.&quot;</characteristic>
-            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a Unit that includes any Models with a narthecium is not Locked in Combat, before the Controlling Player makes a Characteristic Check for that Unit during the Morale Sub-Phase, they can make a Medic Test for that Unit. If that Medic Test is successful, that Player can subtract -2 from the result of the Characteristic Check. Only one Medic Test can be made for each Unit in this way during each Morale Sub-Phase.</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">If a Unit that includes any Models with a narthecium is not Locked in Combat, before the Controlling Player makes a Characteristic Check for that Unit during the Morale Sub-Phase, they can make an Intelligence test for that Unit. If that test is successful, that Player can subtract -2 from the result of the Characteristic Check. Only one test can be made for each Unit in this way during each Morale Sub-Phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -148,6 +148,16 @@ A Model that has breacher charges selected as its Weapon always has a Combat Ini
           <characteristics>
             <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Model with a machinator array can use the Battlesmith (X) Special Rule twice in the same Turn.&quot;</characteristic>
             <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Each time the Controlling Player of a Model with a machinator array chooses to make use of the Battlesmith (X) Special Rule for that Model, it may be used twice - with each usage of the Special Rule targeting the same or different target Units as chosen by the Controlling Player and may apply different effects (all targets chosen must be valid targets). If a player chooses to apply the effects of a Machinator Array and makes two Battlesmith actions then neither of those actions may be modified by the effects of a servo-arm and use only the base value of the Model&apos;s Battlesmith (X) Special Rule to determine their effect.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Servo-arm" hidden="false" id="2952-1af1-f2d5-8dae">
+      <profiles>
+        <profile name="Servo-arm" typeId="2c11-4ec5-60b9-9d46" typeName="Wargear" hidden="false" id="4ec2-ae57-1606-6a4f">
+          <characteristics>
+            <characteristic name="Summary" typeId="fdcc-276a-cadb-7810">&quot;A Model with a servo-arm repairs additional Wounds or Hull Points when using the Battlesmith (X) Special Rule.&quot;</characteristic>
+            <characteristic name="Description" typeId="516b-bc6f-e52f-aced">Each time the Controlling Player of a Model with a servo-arm selects the Repair option when activating the Battlesmith (X) Special Rule for that Model, increase the number of Hull Points or Wounds gained by the Target Model by +1.</characteristic>
           </characteristics>
         </profile>
       </profiles>

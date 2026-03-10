@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Horus Heresy 2.5 Edition" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-6b26-a652-2f51-d8fe" name="Horus Heresy 2.5 Edition" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Command" id="59ce-22c6-9dcc-66a0" hidden="false"/>
     <categoryEntry name="Troops" id="026e-adc5-8a2e-1438" hidden="false"/>
@@ -125,6 +125,7 @@
     </categoryEntry>
     <categoryEntry name="Siege Breaker" id="fed1-db9b-82be-228c" hidden="false"/>
     <categoryEntry name="Specialist" id="097f-883b-71dc-aa4b" hidden="false"/>
+    <categoryEntry name="Psyker" id="c3a8-5a01-e11e-36d6" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Primary Force" id="a7b6-b4fb-ac35-e8bf" hidden="false">
@@ -167,6 +168,12 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Dedicated Transport" hidden="false" id="b7b2-19cd-f742-5d3d" targetId="8676-3c26-63d0-821d"/>
+        <categoryLink name="Specialist" hidden="false" id="0594-cfe7-8e35-28a1" targetId="097f-883b-71dc-aa4b">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="fa18-1ef5-54c8-aa67"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0018-da21-8144-6f93"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Allied Detachment" id="16b9-bab3-587c-8c5f" hidden="false">
@@ -175,6 +182,12 @@
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0df7-8b1c-5d2a-bd92"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a9d-f039-72ad-d3b5"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Specialist" hidden="false" id="3a6c-6a41-b7e4-e604" targetId="097f-883b-71dc-aa4b">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e168-99b0-0c3c-0d55"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d4da-14ea-b2c7-4e8c"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Troops" hidden="false" id="7abe-2ce7-a8dc-9440" targetId="026e-adc5-8a2e-1438">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="0be6-9b7d-689b-495b" name="Legiones Astartes" gameSystemId="sys-6b26-a652-2f51-d8fe" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Praetor in Cataphractii Terminator Armour" hidden="false" id="8890-72f7-b04a-5a98" sortIndex="3">
+    <selectionEntry type="unit" import="true" name="Praetor in Cataphractii Terminator Armour" hidden="false" id="8890-72f7-b04a-5a98" sortIndex="3">
       <costs>
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="145"/>
       </costs>
@@ -1739,7 +1739,7 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="32"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Praetor" hidden="false" id="194b-28ce-3f31-b635" sortIndex="1">
+    <selectionEntry type="unit" import="true" name="Praetor" hidden="false" id="194b-28ce-3f31-b635" sortIndex="1">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Praetor" hidden="false" id="2048-b634-fd5d-9de7">
           <profiles>
@@ -2540,7 +2540,7 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="f6cf-94cd-f01c-45d8" sortIndex="6">
+    <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="f6cf-94cd-f01c-45d8" sortIndex="16">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Apothecary" hidden="false" id="cb54-ec3d-d9c3-fdff">
           <constraints>
@@ -2548,23 +2548,23 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82ce-a5ea-1626-0f4a" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Apothecary" typeId="a76f-8e23-8c3e-166d" hidden="false" id="3ac3-5b9a-fe4e-dbdd">
+            <profile name="Apothecary" typeId="dbf0-3d90-5e03-9cca" hidden="false" id="3ac3-5b9a-fe4e-dbdd" typeName="Unit">
               <characteristics>
-                <characteristic name="Type" typeId="50fc-9241-d4a2-045b">Infantry (Specialist)</characteristic>
-                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">2</characteristic>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">7</characteristic>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">7</characteristic>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">8</characteristic>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">-</characteristic>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Specialist)</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">4</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">2</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">7</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">7</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">7</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">3+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2572,37 +2572,15 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
             <categoryLink targetId="004b-f7b9-8d86-ecf0" id="a075-ce7e-0e59-7c84" primary="false" name="Infantry Model Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Options" id="fdbd-db08-6981-c28a" hidden="false" sortIndex="2">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="May exchange bolt pistol for:" id="1abf-7d66-08fe-dc45" hidden="false" defaultSelectionEntryId="0427-b7ae-007d-79a2" sortIndex="1">
-                  <entryLinks>
-                    <entryLink import="true" name="Bolt pistol" hidden="false" id="0427-b7ae-007d-79a2" type="selectionEntry" targetId="ea66-764a-ed62-0744" sortIndex="1">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e878-3ccd-93f6-a756" automatic="true"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d664-2a3a-2601-a0a7" includeChildSelections="false" automatic="true"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="546e-1b41-c304-c50b" includeChildSelections="false" automatic="true"/>
-                  </constraints>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange chainsword for:" id="0177-8b70-dd04-f748" hidden="false" defaultSelectionEntryId="848d-458a-3e8b-7adf" sortIndex="3">
-                  <entryLinks>
-                    <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="4d82-8b79-9353-b0cb" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808" flatten="true" sortIndex="2">
-                      <modifiers>
-                        <modifier type="set" value="9994-4d65-a0b5-bef0" field="defaultSelectionEntryId"/>
-                        <modifier type="set" value="9994-4d65-a0b5-bef0" field="defaultSelectionEntryId"/>
-                      </modifiers>
-                    </entryLink>
-                    <entryLink import="true" name="Chainsword" hidden="false" id="99f0-2869-57bd-57fb" type="selectionEntry" targetId="67d6-6fcb-dea3-6851" sortIndex="1"/>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84c9-72a3-b5e7-4578" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2814-92fb-eb92-d727" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntryGroup name="May exchange chainsword for:" id="0177-8b70-dd04-f748" hidden="false" defaultSelectionEntryId="99f0-2869-57bd-57fb" sortIndex="1">
+              <entryLinks>
+                <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="4d82-8b79-9353-b0cb" type="selectionEntryGroup" targetId="afae-fd6c-921a-6808" flatten="true" sortIndex="2"/>
+                <entryLink import="true" name="Chainsword" hidden="false" id="99f0-2869-57bd-57fb" type="selectionEntry" targetId="67d6-6fcb-dea3-6851" sortIndex="1"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84c9-72a3-b5e7-4578" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2814-92fb-eb92-d727" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -2624,12 +2602,19 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8652-f11a-d32a-eb03" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="0427-b7ae-007d-79a2" type="selectionEntry" targetId="ea66-764a-ed62-0744">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e878-3ccd-93f6-a756" automatic="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d664-2a3a-2601-a0a7" includeChildSelections="false" automatic="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="546e-1b41-c304-c50b" includeChildSelections="false" automatic="true"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <infoLinks>
             <infoLink name="Medic" id="627e-7f8c-5f9c-40af" hidden="false" type="rule" targetId="a588-e0d0-22b5-61ae">
-              <comment>4+</comment>
+              <comment>5+</comment>
               <modifiers>
-                <modifier type="set" value="Medic (4+)" field="name"/>
+                <modifier type="set" value="Medic (5+)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -2838,7 +2823,7 @@ A Model with this Special Rule must be Deployed onto the Battlefield using the D
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="80"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="2def-4a7d-ecb1-cf18" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="2def-4a7d-ecb1-cf18" sortIndex="2">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Saturnine Praetor" hidden="false" id="b11c-a37c-661e-2773">
           <profiles>
@@ -4684,26 +4669,26 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
         <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="170"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="27be-cb59-2f62-f8d9" sortIndex="10">
+    <selectionEntry type="upgrade" import="true" name="Librarian" hidden="false" id="27be-cb59-2f62-f8d9" sortIndex="15">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Librarian" hidden="false" id="ff19-d66e-1198-abe9">
           <profiles>
             <profile name="Librarian" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="9c19-2a6f-00ad-4d42">
               <characteristics>
-                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command)</characteristic>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Specialist)</characteristic>
                 <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
-                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
-                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">5</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">4</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
                 <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
                 <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
-                <characteristic name="W" typeId="5d83-b210-acf7-2361">3</characteristic>
-                <characteristic name="I" typeId="45f1-a353-bf92-e24d">5</characteristic>
-                <characteristic name="A" typeId="f152-fc99-0cad-3056">4</characteristic>
-                <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">2</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">7</characteristic>
                 <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">7</characteristic>
-                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">9</characteristic>
-                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
-                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">8</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">7</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">3+</characteristic>
                 <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">5+</characteristic>
               </characteristics>
             </profile>
@@ -4716,14 +4701,10 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
             <categoryLink targetId="59ce-22c6-9dcc-66a0" id="e81a-c725-30b8-62f5" primary="false" name="Command"/>
             <categoryLink targetId="004b-f7b9-8d86-ecf0" id="c1b9-3ecd-bf6b-cdcc" primary="false" name="Infantry Model Type"/>
             <categoryLink targetId="b4c6-ff6f-cc96-02c2" id="1f0a-7255-71eb-7955" primary="false" name="Librarian"/>
+            <categoryLink targetId="c3a8-5a01-e11e-36d6" id="a2ad-01bd-ae5a-e009" primary="false" name="Psyker"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink import="true" name="Force Weapon" hidden="false" id="2a2c-99b8-227e-0df6" type="selectionEntryGroup" targetId="9658-eebd-d988-a03f" sortIndex="2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cf6-7c83-8acd-5e6b" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dd0-83eb-737e-e4ec" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Force Weapon" hidden="false" id="2a2c-99b8-227e-0df6" type="selectionEntryGroup" targetId="9658-eebd-d988-a03f" sortIndex="2"/>
             <entryLink import="true" name="Frag grenades" hidden="false" id="9a25-a327-4326-e502" type="selectionEntry" targetId="e511-072f-7613-e74e" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d40b-7c93-5443-4c8c" includeChildSelections="false"/>
@@ -4746,18 +4727,26 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
           <selectionEntryGroups>
             <selectionEntryGroup name="Psychic Disciplines" id="82ff-ebe4-3eb6-7232" hidden="false" sortIndex="6">
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6bc4-ac13-ba4f-99c2" includeChildSelections="false"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1d64-1170-ed11-aa36" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6bc4-ac13-ba4f-99c2" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d64-1170-ed11-aa36" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Librarius Discipline" hidden="false" id="6482-c82a-2dd7-d952" type="selectionEntryGroup" targetId="74d0-69d5-c119-a0ca"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <rules>
+            <rule name="Psyker" id="b766-9ef1-0311-59dc" hidden="false">
+              <description>This model can attempt to manifest two psychic powers per battle round. It knows Smite and two psychic powers from a single discipline.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="85"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="cee1-7634-391f-017c">
+    <selectionEntry type="unit" import="true" name="Centurion" hidden="false" id="cee1-7634-391f-017c" sortIndex="4">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Centurion" hidden="false" id="3d1d-202b-1c95-2448">
           <selectionEntryGroups>
@@ -4936,103 +4925,6 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Command Upgrade" id="2ebe-34cf-bc64-76d5" hidden="false" defaultSelectionEntryId="0910-f3fc-9a0b-13f5" sortIndex="1">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Praetor" hidden="false" id="2f23-89d0-9bd2-5ea8">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9b13-078c-f8f7-9db4" includeChildSelections="true"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="40"/>
-                  </costs>
-                  <profiles>
-                    <profile name="Praetor" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="e3ae-9da9-0d6d-3ee6">
-                      <characteristics>
-                        <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command)</characteristic>
-                        <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
-                        <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">6</characteristic>
-                        <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">5</characteristic>
-                        <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
-                        <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
-                        <characteristic name="W" typeId="5d83-b210-acf7-2361">4</characteristic>
-                        <characteristic name="I" typeId="45f1-a353-bf92-e24d">5</characteristic>
-                        <characteristic name="A" typeId="f152-fc99-0cad-3056">5</characteristic>
-                        <characteristic name="LD" typeId="563f-b333-e8af-d093">10</characteristic>
-                        <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">9</characteristic>
-                        <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">9</characteristic>
-                        <characteristic name="IN" typeId="8855-af7b-d9c2-228f">9</characteristic>
-                        <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
-                        <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">4+</characteristic>
-                      </characteristics>
-                      <modifiers>
-                        <modifier type="set" value="12" field="d2c1-69ea-7ad8-0c75">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="prepend" value="Jump Pack" field="name">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="replace" value=", Antigrav)" field="c6d3-582c-0125-3afd" arg=")">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="0910-f3fc-9a0b-13f5">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="force" shared="true" id="851f-928c-bb4d-82cb" includeChildSelections="true"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Centurion" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="5cf3-3008-6f0f-986b">
-                      <characteristics>
-                        <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command)</characteristic>
-                        <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
-                        <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
-                        <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">5</characteristic>
-                        <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
-                        <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
-                        <characteristic name="W" typeId="5d83-b210-acf7-2361">3</characteristic>
-                        <characteristic name="I" typeId="45f1-a353-bf92-e24d">5</characteristic>
-                        <characteristic name="A" typeId="f152-fc99-0cad-3056">4</characteristic>
-                        <characteristic name="LD" typeId="563f-b333-e8af-d093">9</characteristic>
-                        <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
-                        <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">8</characteristic>
-                        <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
-                        <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
-                        <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">5+</characteristic>
-                      </characteristics>
-                      <modifiers>
-                        <modifier type="set" value="12" field="d2c1-69ea-7ad8-0c75">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="replace" value=", Antigrav)" field="c6d3-582c-0125-3afd" arg=")">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="prepend" value="Jump Pack" field="name">
-                          <conditions>
-                            <condition type="equalTo" value="1" field="selections" scope="model" childId="7cc3-abfb-8528-0f0b" shared="true" includeChildSelections="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f27-bf64-a521-898a" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80a1-a341-6a94-5a71" includeChildSelections="false"/>
-              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Optional Wargear" id="ce0d-d328-d7fd-e0b0" hidden="false">
               <entryLinks>
@@ -5812,6 +5704,381 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a8-c380-d8db-e5ae" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Techmarine" hidden="false" id="66ca-df9e-8244-7448" sortIndex="17">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Techmarine" hidden="false" id="e2a3-f46c-9a38-8a1f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c45b-8d4f-7a9d-7cac" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff75-cb92-bd7f-40e5" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Techmarine" typeId="dbf0-3d90-5e03-9cca" hidden="false" id="b0cd-3896-cb25-9e5f" typeName="Unit">
+              <characteristics>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Specialist)</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">4</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">4</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">2</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">4</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">2</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">7</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">7</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">7</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Infantry Model Type" hidden="false" id="7f75-fd68-0707-b201" targetId="004b-f7b9-8d86-ecf0" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="7e13-d7fe-c0c0-c4da" type="selectionEntry" targetId="e511-072f-7613-e74e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0fd-72fb-d3d9-3449" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b250-75bf-48bc-a49a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="da63-dd88-2dae-e6ae" type="selectionEntry" targetId="325c-b493-8fb8-370a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db81-193a-7f63-bdca" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3094-a7b1-2fa0-46e8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cyber-familiar" hidden="false" id="eae1-9ca5-5c3d-9f1d" type="selectionEntry" targetId="ca29-a190-77af-6562">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c4a-4600-8609-b55a" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Power axe" hidden="false" id="1678-da2f-9823-8a1f" type="selectionEntry" targetId="391a-119d-863c-7cce">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a096-db74-d82d-0f2d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="335d-6f0e-7661-302a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="d3ca-d715-7dd4-559a" type="selectionEntry" targetId="ea66-764a-ed62-0744">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e34b-4ebf-71f8-d963" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4203-639f-02bd-048e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Servo-arm" hidden="false" id="f0e2-9b29-89e8-c82c" type="selectionEntry" targetId="2952-1af1-f2d5-8dae">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="879b-74f9-b814-ce9d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cb6-87f6-a46e-221b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Melta Bombs" hidden="false" id="ec26-96c5-98b4-855e" type="selectionEntry" targetId="c4d3-e682-d107-cb23">
+              <costs>
+                <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b88-6a2b-4ccd-9312" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="50"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="4b83-dd8c-0767-11b0" targetId="097f-883b-71dc-aa4b" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Battlesmith (X)" id="d296-1562-991a-7605" hidden="false" type="rule" targetId="5567-e3e1-b90d-070d">
+          <modifiers>
+            <modifier type="set" value="Battlesmith (2)" field="name"/>
+          </modifiers>
+          <comment>2</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chief Librarian" hidden="false" id="24e3-884d-4c83-535f" sortIndex="10">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chief Librarian" hidden="false" id="792d-174b-16ef-1d11">
+          <profiles>
+            <profile name="Chief Librarian" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="d4e6-09d3-54cc-e50c">
+              <characteristics>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command)</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">7</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">5</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">4</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">3</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">5</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">4</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">8</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">7</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">9</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6150-0652-a363-a2fc" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5110-8145-a433-511b" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Command" hidden="false" id="3b74-dd40-0f20-99a4" targetId="59ce-22c6-9dcc-66a0" primary="false"/>
+            <categoryLink name="Infantry Model Type" hidden="false" id="d21b-3704-26ba-f024" targetId="004b-f7b9-8d86-ecf0" primary="false"/>
+            <categoryLink name="Librarian" hidden="false" id="97a0-960f-1791-9982" targetId="b4c6-ff6f-cc96-02c2" primary="false"/>
+            <categoryLink name="Psyker" hidden="false" id="02fa-8fa6-e6e7-f29e" targetId="c3a8-5a01-e11e-36d6" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Force Weapon" hidden="false" id="d0e9-76f6-4b99-c3aa" type="selectionEntryGroup" targetId="9658-eebd-d988-a03f" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="504a-86ef-053e-3561" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0354-a242-7947-6667" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="f4bf-2447-34df-b453" type="selectionEntry" targetId="e511-072f-7613-e74e" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccbb-a757-298b-23d3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a244-7b94-3a5a-0f05" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="b605-b9a0-9b1d-0d87" type="selectionEntry" targetId="325c-b493-8fb8-370a" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c3c-7714-714f-f918" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f828-63a1-78f6-4414" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="40a5-fc3d-4ef7-08fa" type="selectionEntry" targetId="ea66-764a-ed62-0744">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fed-de9e-9727-7aaf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e290-d07f-13da-86ca" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Disciplines" id="9519-75cd-b03d-34a3" hidden="false" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="221d-c6ee-f516-9ca1" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="89d7-589f-3ff7-45a4" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Librarius Discipline" hidden="false" id="543d-f45b-7364-5da6" type="selectionEntryGroup" targetId="74d0-69d5-c119-a0ca"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Psyker" id="5a61-600e-ec96-9813" hidden="false">
+              <description>This model can attempt to manifest two psychic powers per battle round. It knows Smite and three psychic powers from a single discipline.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="135"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Centurion in Terminator Armour" hidden="false" id="6a3b-dc26-d0f2-35c2" sortIndex="5">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Cataphractii Centurion" hidden="false" id="f94b-2b62-48ed-4679">
+          <profiles>
+            <profile name="Cataphractii Centurion" typeId="dbf0-3d90-5e03-9cca" typeName="Unit" hidden="false" id="68c2-5fa5-faca-4d1a">
+              <characteristics>
+                <characteristic name="Type" typeId="c6d3-582c-0125-3afd">Infantry (Command, Heavy)</characteristic>
+                <characteristic name="M" typeId="d2c1-69ea-7ad8-0c75">6</characteristic>
+                <characteristic name="WS" typeId="f43d-b1a4-46cd-d291">5</characteristic>
+                <characteristic name="BS" typeId="d8f7-eb33-9afe-076e">5</characteristic>
+                <characteristic name="S" typeId="5611-7ba3-76ab-5d2a">4</characteristic>
+                <characteristic name="T" typeId="2303-39d8-5a6d-99b0">5</characteristic>
+                <characteristic name="W" typeId="5d83-b210-acf7-2361">4</characteristic>
+                <characteristic name="I" typeId="45f1-a353-bf92-e24d">5</characteristic>
+                <characteristic name="A" typeId="f152-fc99-0cad-3056">4</characteristic>
+                <characteristic name="LD" typeId="563f-b333-e8af-d093">9</characteristic>
+                <characteristic name="CL" typeId="97d7-864a-b4d6-bfbf">8</characteristic>
+                <characteristic name="WP" typeId="43aa-736e-7ab9-2fdd">8</characteristic>
+                <characteristic name="IN" typeId="8855-af7b-d9c2-228f">8</characteristic>
+                <characteristic name="SAV" typeId="6281-53b4-2f1a-d226">2+</characteristic>
+                <characteristic name="INV" typeId="7fef-b0ea-c53e-129c">4+</characteristic>
+              </characteristics>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>Terminator Armour</comment>
+                  <modifiers>
+                    <modifier type="replace" value=")" field="c6d3-582c-0125-3afd" arg=", Heavy)"/>
+                    <modifier type="set" value="7" field="d2c1-69ea-7ad8-0c75"/>
+                    <modifier type="replace" value="Tartaros" field="name" arg="Cataphractii"/>
+                    <modifier type="set" value="5+" field="7fef-b0ea-c53e-129c"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="unit" childId="9753-b9bd-2fb6-fc3e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+                <modifierGroup type="and">
+                  <comment>Terminator Armour</comment>
+                  <modifiers>
+                    <modifier type="replace" value=")" field="c6d3-582c-0125-3afd" arg=", Heavy)"/>
+                    <modifier type="set" value="7" field="d2c1-69ea-7ad8-0c75"/>
+                    <modifier type="replace" value="Tartaros" field="name" arg="Cataphractii"/>
+                    <modifier type="set" value="5+" field="7fef-b0ea-c53e-129c"/>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="unit" childId="9753-b9bd-2fb6-fc3e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="037f-e9b7-748f-2387"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d481-ca9f-fac3-600c"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="004b-f7b9-8d86-ecf0" id="d47b-22eb-8069-006e" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="079c-7444-31e3-6a1a" id="4275-51e5-4c96-7dd7" primary="false" name="Command Model Sub-type"/>
+            <categoryLink targetId="e20d-00cc-6f35-6d59" id="5482-2ad5-e4cc-2989" primary="false" name="Heavy Model Sub-Type"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Options" id="32df-0b1c-8590-a832" hidden="false" sortIndex="2">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May exchange power weapon for:" id="cd39-9dca-726a-f330" hidden="false" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Legion Terminator Melee Weapons" hidden="false" id="e493-cec5-db91-30a6" type="selectionEntryGroup" targetId="0523-46e6-6df1-a4c0" sortIndex="2"/>
+                    <entryLink import="true" name="Power Weapon" hidden="false" id="9a33-3148-1a2c-0d76" type="selectionEntryGroup" targetId="cdea-8bd4-8678-fcb1" sortIndex="1" collapsible="true"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12a7-2136-d1df-d59a" includeChildSelections="false" automatic="true"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9a9-fc4e-38f2-21df" automatic="true"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="12a7-2136-d1df-d59a">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="ab57-e7ca-3fc7-b256" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="eb48-9812-af4c-6912" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="0" field="e9a9-fc4e-38f2-21df">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="ab57-e7ca-3fc7-b256" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="eb48-9812-af4c-6912" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="May exchange combi-bolter for:" id="264a-adef-115c-a56d" hidden="false" collapsible="false" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="b893-491c-8898-730e" type="selectionEntryGroup" targetId="b719-76b9-7990-d567">
+                      <entryLinks>
+                        <entryLink import="true" name="Combi-bolter" hidden="false" id="5133-2aed-17d9-6aa5" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="0"/>
+                        <entryLink import="true" name="Volkite charger" hidden="false" id="4c53-a5ad-ddfc-8bc9" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="12"/>
+                      </entryLinks>
+                    </entryLink>
+                    <entryLink import="true" name="Twin volkite charger" hidden="false" id="b71b-8c9d-710a-d010" type="selectionEntry" targetId="2c7c-2a83-ce9e-a8c9"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8177-5acf-0841-08b6" includeChildSelections="false" automatic="true"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccdf-6aab-2557-ba79" automatic="true"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="8177-5acf-0841-08b6">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="c7fb-ff34-a0fa-7de0" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" value="0" field="ccdf-6aab-2557-ba79">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="unit" childId="c7fb-ff34-a0fa-7de0" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Pair of Lightning Claws" hidden="false" id="ea06-7c53-2118-f2c4" type="selectionEntry" targetId="c7fb-ff34-a0fa-7de0" sortIndex="3">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eaa-2da9-dfd2-1d2f" includeChildSelections="false" automatic="true"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9ef8-f0f4-9149-ea74" includeChildSelections="false" automatic="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="9ef8-f0f4-9149-ea74">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="unit" childId="ab57-e7ca-3fc7-b256" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="unit" childId="eb48-9812-af4c-6912" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Terminator Armour" hidden="false" id="d704-0f74-99e4-dbc7" type="selectionEntryGroup" targetId="0c94-211e-1d77-9595" sortIndex="1"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="replace" value="Tartaros" field="name" arg="Cataphractii">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="9753-b9bd-2fb6-fc3e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="replace" value="Saturnine" field="name" arg="Cataphractii">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="480f-e97c-1bc4-bc83" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="100"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="6546-5a9c-4890-f035" targetId="a2f9-617e-a8d9-a2a6"/>
@@ -6007,10 +6274,22 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
     <selectionEntryGroup name="Legion Sergeant Melee Weapons" id="afae-fd6c-921a-6808" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Chainaxe" hidden="false" id="1f36-c2f6-be9c-3220" type="selectionEntry" targetId="63e8-9b5a-a579-872b"/>
-        <entryLink import="true" name="Thunder hammer" hidden="false" id="2ed8-53b4-e5c2-b716" type="selectionEntry" targetId="5d90-0beb-144a-477f"/>
+        <entryLink import="true" name="Thunder hammer" hidden="false" id="2ed8-53b4-e5c2-b716" type="selectionEntry" targetId="5d90-0beb-144a-477f">
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
+        </entryLink>
         <entryLink import="true" name="Chainsword" hidden="false" id="b167-ee7b-5794-869e" type="selectionEntry" targetId="67d6-6fcb-dea3-6851"/>
-        <entryLink import="true" name="Lightning Claw" hidden="false" id="80de-a2b4-c4a3-c7f2" type="selectionEntry" targetId="7b9c-7b47-4f77-1302"/>
-        <entryLink import="true" name="Power fist" hidden="false" id="2e41-5390-d483-3412" type="selectionEntry" targetId="d0da-7b41-cd84-89f2"/>
+        <entryLink import="true" name="Lightning Claw" hidden="false" id="80de-a2b4-c4a3-c7f2" type="selectionEntry" targetId="7b9c-7b47-4f77-1302">
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power fist" hidden="false" id="2e41-5390-d483-3412" type="selectionEntry" targetId="d0da-7b41-cd84-89f2">
+          <costs>
+            <cost name="Points" typeId="64d7-ccd2-e4b7-b956" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Officer Wargear" id="eb84-9f9d-3c73-f0a1" hidden="false">
@@ -6472,6 +6751,56 @@ At the start of the Move Sub-Phase, the Controlling Player of a Model with this 
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2666-2315-4da3-8043" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Terminator Armour" id="0c94-211e-1d77-9595" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cataphractii" hidden="false" id="56f9-5e2c-b4d8-0aae" sortIndex="1"/>
+        <selectionEntry type="upgrade" import="true" name="Tartaros" hidden="false" id="9753-b9bd-2fb6-fc3e" sortIndex="2">
+          <costs>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+            <cost name="Auxiliary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+            <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Saturnine" hidden="false" id="480f-e97c-1bc4-bc83" sortIndex="3"/>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c10-67bb-9945-559c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eb6-4fa6-4bb5-bc0f" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Terminator Melee Weapons" id="ca42-9987-0a86-f0ad" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Lightning Claw" hidden="false" id="2a7a-3c27-6120-15c2" type="selectionEntry" targetId="7b9c-7b47-4f77-1302"/>
+        <entryLink import="true" name="Power fist" hidden="false" id="c84f-91ce-49d0-0a12" type="selectionEntry" targetId="d0da-7b41-cd84-89f2"/>
+        <entryLink import="true" name="Thunder hammer" hidden="false" id="e4a8-92c5-ecf9-387f" type="selectionEntry" targetId="5d90-0beb-144a-477f"/>
+        <entryLink import="true" name="Solarite Power Gauntlet" hidden="true" id="5441-9ddf-5369-2c1f" type="selectionEntry" targetId="e284-8c73-f5c8-d5b6">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <comment>IF</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="force" childId="5135-150c-aa34-250a" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="523b-b451-d404-6b7c" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="079c-7444-31e3-6a1a" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="model" childId="6985-27da-baf8-783e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
     <entryLink import="true" name="Praetor" hidden="false" id="7c82-5af7-4706-0811" type="selectionEntry" targetId="194b-28ce-3f31-b635">
@@ -6588,6 +6917,11 @@ At the start of the Move Sub-Phase, the Controlling Player of a Model with this 
     <entryLink import="true" name="Centurion" hidden="false" id="6e10-c92f-cd36-2c00" type="selectionEntry" targetId="cee1-7634-391f-017c">
       <categoryLinks>
         <categoryLink targetId="59ce-22c6-9dcc-66a0" id="c3b5-2eba-dfe4-be94" primary="true" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Librarian" hidden="false" id="87bc-5154-c439-826d" type="selectionEntry" targetId="27be-cb59-2f62-f8d9">
+      <categoryLinks>
+        <categoryLink targetId="097f-883b-71dc-aa4b" id="a934-6137-e2fe-3bb3" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
