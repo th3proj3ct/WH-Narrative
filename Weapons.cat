@@ -3618,6 +3618,311 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Pistol" hidden="false" id="dcc2-bec6-7fe9-be5d">
+      <infoLinks>
+        <infoLink name="Pistol" id="3406-086e-10b7-1db8" hidden="false" type="rule" targetId="0531-9362-4b90-3ac9"/>
+        <infoLink name="Overload (X)" id="20c9-dc03-93ee-87ac" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Disintegrator pistol" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="e478-ec04-af68-0b20">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">12</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">3</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Pistol, Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Disintegrator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator rifle" hidden="false" id="8d40-c8f9-fa5b-e5a1">
+      <profiles>
+        <profile name="Disintegrator rifle" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="9fcb-8ef2-5d04-0f47">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">3</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Disintegrator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Overload (X)" id="de25-e79d-f8b7-4d5e" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Astartes shotgun" hidden="false" id="2b31-5a82-c910-bfe0">
+      <profiles>
+        <profile name="Astartes shotgun" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="dfbf-203f-9d62-ff11">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">12</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">-</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Stun (0)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Assault, Auto</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Stun (X)" id="f8b9-7a5b-dc54-b5e1" hidden="false" type="rule" targetId="ecdc-32b7-f991-3547">
+          <comment>0</comment>
+          <modifiers>
+            <modifier type="set" value="Stun (0)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike bolter" hidden="false" id="6724-25b7-4fe7-4ebd">
+      <profiles>
+        <profile name="Banestrike bolter" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="ad17-576e-a8bf-9e01">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="48d8-8194-d69c-f484" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="8011-b2a3-1714-35ef">
+      <profiles>
+        <profile name="Plasma gun (Maximal)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="3643-6f81-4957-dc42">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">7</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (5+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma gun (Sustained)" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="8844-09c9-3b77-5de4" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">2</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="2304-ba68-080e-d761" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="c887-8363-45cf-0755" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="ccac-d351-2f94-66f5" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton gun" hidden="false" id="dfce-674a-ccab-ef43">
+      <profiles>
+        <profile name="Graviton gun" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="759d-375c-03af-b2de">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">4</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Graviton</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="1ad8-9224-aeb5-43cf" hidden="false" type="rule" targetId="8b6b-a464-227a-063a">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="fc57-5201-586a-24dc" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="a40c-ed92-e57b-f6c5" hidden="false" type="rule" targetId="0f0a-c20a-e712-42b3">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="3163-dbb6-8e37-30d9" hidden="false" type="rule" targetId="e390-9ef2-c903-d0c9">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy disintegrator" hidden="false" id="502a-1299-378e-ac61">
+      <profiles>
+        <profile name="Heavy disintegrator" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="2815-308e-f183-227c">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">24</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">6</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">2</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (FP), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Disintegrator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="4095-6052-8b89-0054" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="5d08-ac75-5abc-0211" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator blaster" hidden="false" id="9b03-2c1e-c536-25e2">
+      <infoLinks>
+        <infoLink name="Overload (X)" id="3ac9-1463-3471-c464" hidden="false" type="rule" targetId="25b9-70b2-36de-22c5">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Disintegrator blaster" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="6bca-7b4c-f206-f201">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">18</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">5</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">2</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">2</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Disintegrator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nemesis bolter" hidden="false" id="3d29-8f4a-2ecc-0dae">
+      <profiles>
+        <profile name="Nemesis bolter" typeId="01fb-9d7a-f44d-cad4" typeName="Ranged Weapon" hidden="false" id="0a35-e119-3e49-5d79">
+          <characteristics>
+            <characteristic name="R" typeId="c686-829c-aef5-ccf2">48</characteristic>
+            <characteristic name="FP" typeId="c943-b9e0-1496-6fa7">1</characteristic>
+            <characteristic name="S" typeId="591a-4268-a46f-9af6">4</characteristic>
+            <characteristic name="AP" typeId="e137-b19a-087a-f2e7">5</characteristic>
+            <characteristic name="D" typeId="770e-2783-e159-33e6">1</characteristic>
+            <characteristic name="Special Rules" typeId="0dea-eed0-785e-5633">Heavy (RS), Breaching (5+), Pinning (1), Precision (4+)</characteristic>
+            <characteristic name="Traits" typeId="2dd7-8636-31c5-35a1">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="ec88-4b4a-15ca-4af4" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="65a2-d216-6ce6-b716" hidden="false" type="rule" targetId="b0a4-11e4-8b30-9ce5">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="c695-a167-b742-3ba1" hidden="false" type="rule" targetId="0f0a-c20a-e712-42b3">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision (X)" id="0f9a-eb8c-9d20-f7cb" hidden="false" type="rule" targetId="61a5-61cc-ed2a-d45b">
+          <comment>4+</comment>
+          <modifiers>
+            <modifier type="set" value="Precision (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pair of Raven&apos;s Talons" hidden="false" id="6f0a-1120-eb79-8c98">
+      <profiles>
+        <profile name="Raven&apos;s Talons" typeId="ff5e-5aa3-9076-d1ac" typeName="Melee Weapon" hidden="false" id="600f-cfe0-e0a8-ed7b">
+          <characteristics>
+            <characteristic name="I" typeId="93cf-082c-7341-87f7">I</characteristic>
+            <characteristic name="A" typeId="a356-7e7a-c37d-b824">+2</characteristic>
+            <characteristic name="S" typeId="33a1-3481-5543-fce1">S</characteristic>
+            <characteristic name="AP" typeId="a0d4-e1a3-618a-df27">3</characteristic>
+            <characteristic name="D" typeId="3802-23d3-f9b9-863b">1</characteristic>
+            <characteristic name="Special Rules" typeId="4dbd-3a95-e878-bd7f">Impact (IM), Rending (6+), Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="c52d-0513-f9bf-3b12">Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="d386-59d9-d053-8f39" hidden="false" type="rule" targetId="6b8b-c85d-3684-26f3">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Impact (X)" id="7adc-3669-36ef-a491" hidden="false" type="rule" targetId="6499-61b9-e3b6-b748">
+          <modifiers>
+            <modifier type="set" value="Impact (IM)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rending (X)" id="2524-da74-ff41-70f4" hidden="false" type="rule" targetId="d2ed-7778-39d9-22f1">
+          <modifiers>
+            <modifier type="set" value="Rending (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="48bf-1c04-53d8-150a" targetId="a2f9-617e-a8d9-a2a6"/>
