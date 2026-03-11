@@ -5896,9 +5896,6 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a8-c380-d8db-e5ae" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Techmarine" hidden="false" id="66ca-df9e-8244-7448" sortIndex="17">
       <selectionEntries>
